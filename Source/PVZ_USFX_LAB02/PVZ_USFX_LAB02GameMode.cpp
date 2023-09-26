@@ -135,14 +135,17 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 		{
 			NewLanzaguisantes->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
 			aPlantas.Add(NewLanzaguisantes);
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewLanzaguisantes->GetName(), NewLanzaguisantes->energia));
+
 			
 		}
 
 
 		for (int j = 0; j < 2; j++) {
 			APlant* NewLanzaguizantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
-			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("Energía de %s: %i"), *NombrePlanta, NuevaPlantaGuisante->energia));
 			aPlantas.Add(NewLanzaguizantes);
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewLanzaguisantes->GetName(), NewLanzaguisantes->energia));
+
 		}
 	}
 
@@ -158,12 +161,18 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 		{
 			NewGirasol->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
 			aPlantas.Add(NewGirasol);
+
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewGirasol->GetName(), NewGirasol->energia));
 		}
 
 
+		
 		for (int j = 0; j < 2; j++) {
-			APlant* NewLanzaguizantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
-			aPlantas.Add(NewLanzaguizantes);
+			APlant* NewLanzaguisantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
+			aPlantas.Add(NewLanzaguisantes);
+			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewLanzaguisantes->GetName(), NewLanzaguisantes->energia));
+			
+
 		}
 	}
 	//---------------------------------------------->Repetidora<---------------------------------------------------------
@@ -177,12 +186,14 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 		{
 			NewRepetidora->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
 			aPlantas.Add(NewRepetidora);
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewRepetidora->GetName(), NewRepetidora->energia));
 		}
 
 
 		for (int j = 0; j < 2; j++) {
-			APlant* NewLanzaguizantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
-			aPlantas.Add(NewLanzaguizantes);
+			APlant* NewLanzaguisantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
+			aPlantas.Add(NewLanzaguisantes);
+			//ngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewRepetidora->GetName(), NewRepetidora->energia));
 		}
 	}
 	//---------------------------------------------->Nuez<---------------------------------------------------------
@@ -196,12 +207,14 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 		{
 			NewNuez->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
 			aPlantas.Add(NewNuez);
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewNuez->GetName(), NewNuez->energia));
 		}
 
 
 		for (int j = 0; j < 2; j++) {
-			APlant* NewLanzaguizantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
-			aPlantas.Add(NewLanzaguizantes);
+			APlant* NewLanzaguisantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
+			aPlantas.Add(NewLanzaguisantes);
+			//ngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewNuez->GetName(), NewNuez->energia));
 		}
 	}
 	//---------------------------------------------->Hongo<---------------------------------------------------------
@@ -215,12 +228,13 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 		{
 			NewHongo->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
 			aPlantas.Add(NewHongo);
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewHongo->GetName(), NewHongo->energia));
+
 		}
-
-
 		for (int j = 0; j < 2; j++) {
-			APlant* NewLanzaguizantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
-			aPlantas.Add(NewLanzaguizantes);
+			APlant* NewLanzaguisantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
+			aPlantas.Add(NewHongo);
+			//ngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewHongo->GetName(), NewHongo->energia));
 		}
 	}
 	//initialPositionX = -1500.0f;

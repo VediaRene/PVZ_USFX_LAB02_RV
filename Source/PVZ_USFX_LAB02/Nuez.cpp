@@ -9,4 +9,5 @@ ANuez::ANuez()
 	PlantMeshComponent->SetStaticMesh(PlantMesh.Object);
 
 	Tags.Add(TEXT("Nuez"));
+
 }
