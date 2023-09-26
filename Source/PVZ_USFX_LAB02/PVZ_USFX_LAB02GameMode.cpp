@@ -135,14 +135,18 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 		{
 			NewLanzaguisantes->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
 			aPlantas.Add(NewLanzaguisantes);
+			
 		}
 
 
 		for (int j = 0; j < 2; j++) {
 			APlant* NewLanzaguizantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString::Printf(TEXT("Energía de %s: %i"), *NombrePlanta, NuevaPlantaGuisante->energia));
 			aPlantas.Add(NewLanzaguizantes);
 		}
 	}
+
+
 	//---------------------------------------------->Girasol<---------------------------------------------------------
 	initialPositionX = -1000.0f;
 	initialPositionY = 100.0f;
@@ -345,6 +349,8 @@ void APVZ_USFX_LAB02GameMode::VisualizarTarjetasPlantas() {
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Planta: %s, tiempo recarga: %d"), *Llave, Valor));
 	}
 }
+
+
 
 
 //AZombie* APVZ_USFX_LAB02GameMode::SpawnZombie(FVector _spawnPosition)

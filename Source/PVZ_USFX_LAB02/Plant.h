@@ -30,6 +30,7 @@ public:
 	//void OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor);
 	UPROPERTY(VisibleAnywhere)
 	int energia;
+
 	/** Offset from the ships location to spawn projectiles */
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 		FVector GunOffset;
