@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PVZ_USFX_LAB02_CustomSceneComponent_generated_h
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_SPARSE_DATA
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_RPC_WRAPPERS
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_INCLASS_NO_PURE_DECLS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_SPARSE_DATA
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_RPC_WRAPPERS
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCustomSceneComponent(); \
 	friend struct Z_Construct_UClass_UCustomSceneComponent_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UCustomSceneComponent)
 
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_INCLASS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesUCustomSceneComponent(); \
 	friend struct Z_Construct_UClass_UCustomSceneComponent_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UCustomSceneComponent)
 
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_STANDARD_CONSTRUCTORS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCustomSceneComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCustomSceneComponent) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_ENHANCED_CONSTRUCTORS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCustomSceneComponent(UCustomSceneComponent&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCustomSceneComponent)
 
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_PRIVATE_PROPERTY_OFFSET
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_10_PROLOG
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_GENERATED_BODY_LEGACY \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_PRIVATE_PROPERTY_OFFSET
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_10_PROLOG
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_PRIVATE_PROPERTY_OFFSET \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_SPARSE_DATA \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_RPC_WRAPPERS \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_INCLASS \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_STANDARD_CONSTRUCTORS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_SPARSE_DATA \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_RPC_WRAPPERS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_INCLASS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_GENERATED_BODY \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_PRIVATE_PROPERTY_OFFSET \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_SPARSE_DATA \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_INCLASS_NO_PURE_DECLS \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_ENHANCED_CONSTRUCTORS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_SPARSE_DATA \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_INCLASS_NO_PURE_DECLS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PVZ_USFX_LAB02_API UClass* StaticClass<class UCustomSceneComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_CustomSceneComponent_h
+#define CURRENT_FILE_ID PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_CustomSceneComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -59,6 +59,8 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 
 	FTransform SpawnLocation;
 	SpawnLocation.SetLocation(FVector(-1500.0f, 1200.0f, 200.0f));
+
+	//-----------------------------------------ZombieComun----------------------------------------------
 	float initialPositionX = -1500.0f;
 	float initialPositionY = 1200.0f;
 
@@ -75,9 +77,13 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 			ArrayZombies.Add(NewZombieComun);
 		}
 	}
+	//----------------------------------------ZombieCono----------------------------------------------
 
-	initialPositionX = -1500.0f;
+	//Define la pocion inicial del ZOmbie
+	initialPositionX = -1000.0f;
 	initialPositionY = 1200.0f;
+	
+	
 
 	for (int32 i = 0; i < NumberZombiesCono; ++i)
 	{
@@ -92,8 +98,8 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 			ArrayZombies.Add(NewZombieCono);
 		}
 	}
-
-	initialPositionX = -1500.0f;
+	//-----------------------------------------ZombieCubo----------------------------------------------
+	initialPositionX = -1480.0f;
 	initialPositionY = 1200.0f;
 
 	for (int32 i = 0; i < NumberZombiesCubo; ++i)
@@ -109,8 +115,8 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 			ArrayZombies.Add(NewZombieCubo);
 		}
 	}
-
-	initialPositionX = -1500.0f;
+	//----------------------------==============ZombieSenal=============-------------------------------------
+	initialPositionX = -1025.0f;
 	initialPositionY = 1200.0f;
 
 	for (int32 i = 0; i < NumberZombiesSenal; ++i)

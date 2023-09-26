@@ -15,4 +15,5 @@ class PVZ_USFX_LAB02_API AZombieCubo : public AZombie
 	GENERATED_BODY()
 public:
 	AZombieCubo();
+
 };

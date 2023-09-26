@@ -39,6 +39,7 @@ public:
 	TMap<FName, int32> mOrdaZombies;
 	int32 NumberZombiesSpawned = 0;
 	TArray<APlant*> aPlantas;
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -74,6 +75,7 @@ protected:
 	float TiempoTrancurridoSiguienteTarjetaNuez = 0.0f;
 	float TiempoTrancurridoSiguienteTarjetaLanzamaiz = 0.0f;
 	float TiempoTrancurridoSiguienteTarjetaRepetidora = 0.0f;
+	
 	//Planta Girasol
 
 

@@ -8,6 +8,6 @@ AZombieComun::AZombieComun()
 {
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ZombieMesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_QuadPyramid.Shape_QuadPyramid'"));
 	ZombieMeshComponent->SetStaticMesh(ZombieMesh.Object);
-
+	MovementSpeed = 0.002f;
 
 }

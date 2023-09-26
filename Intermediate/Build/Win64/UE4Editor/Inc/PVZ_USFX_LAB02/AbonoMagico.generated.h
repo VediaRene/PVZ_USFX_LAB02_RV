@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PVZ_USFX_LAB02_AbonoMagico_generated_h
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_SPARSE_DATA
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_RPC_WRAPPERS
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_INCLASS_NO_PURE_DECLS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_SPARSE_DATA
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_RPC_WRAPPERS
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAbonoMagico(); \
 	friend struct Z_Construct_UClass_AAbonoMagico_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AAbonoMagico)
 
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_INCLASS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAAbonoMagico(); \
 	friend struct Z_Construct_UClass_AAbonoMagico_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AAbonoMagico)
 
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_STANDARD_CONSTRUCTORS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAbonoMagico(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAbonoMagico) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_ENHANCED_CONSTRUCTORS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAbonoMagico() { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAbonoMagico)
 
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_PRIVATE_PROPERTY_OFFSET
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_12_PROLOG
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_GENERATED_BODY_LEGACY \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_PRIVATE_PROPERTY_OFFSET
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_12_PROLOG
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_PRIVATE_PROPERTY_OFFSET \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_SPARSE_DATA \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_RPC_WRAPPERS \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_INCLASS \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_STANDARD_CONSTRUCTORS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_PRIVATE_PROPERTY_OFFSET \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_SPARSE_DATA \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_RPC_WRAPPERS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_INCLASS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_GENERATED_BODY \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_PRIVATE_PROPERTY_OFFSET \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_SPARSE_DATA \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_INCLASS_NO_PURE_DECLS \
-	PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_ENHANCED_CONSTRUCTORS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_PRIVATE_PROPERTY_OFFSET \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_SPARSE_DATA \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_INCLASS_NO_PURE_DECLS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,7 +89,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PVZ_USFX_LAB02_API UClass* StaticClass<class AAbonoMagico>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID PVZ_USFX_LAB02_Source_PVZ_USFX_LAB02_AbonoMagico_h
+#define CURRENT_FILE_ID PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_AbonoMagico_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -260,11 +260,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/I "C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine"
-/Yc"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I "C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine"
+/Yc"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4
