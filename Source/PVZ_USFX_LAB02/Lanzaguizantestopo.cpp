@@ -14,12 +14,16 @@ ALanzaguizantestopo::ALanzaguizantestopo()
 	Tags.Add(TEXT("Lanzaguisantes"));
    // MovementSpeed = 0.1f;MovementSpeed = 0.1f;
 	// Inicializa las ubicaciones
-	InitialLocation = GetActorLocation();
+	/*InitialLocation = GetActorLocation();
 	RightDestination = InitialLocation + FVector(100.0f, 0.0f, 0.0f);
 	LeftDestination = InitialLocation - FVector(100.0f, 0.0f, 0.0f);
 	bIsMovingRight = true;
-	bIsShooting = false;
-
+	bIsShooting = false;*/
+	PrimaryActorTick.bCanEverTick = true;
+	MovementSpeed = 100.0f; // Ajusta la velocidad de movimiento según tus necesidades.
+	ShootInterval = 5.0f;  // Intervalo de tiempo para disparar.
+	CurrentTime = 0.0f;
+	bMovingRight = true;
 
 }
 
@@ -28,41 +32,69 @@ ALanzaguizantestopo::ALanzaguizantestopo()
 void ALanzaguizantestopo::BeginPlay()
 {
 	Super::BeginPlay();
-
+	
+	InitialLocation = GetActorLocation();
 	// Llama a la función MoveAndShoot después de 5 segundos y repite cada 5 segundos
-	GetWorldTimerManager().SetTimer(TimerHandle_MoveAndShoot, this, &ALanzaguizantestopo::MoveAndShoot, 5.0f, true, 5.0f);
+	//GetWorldTimerManager().SetTimer(TimerHandle_MoveAndShoot, this, &ALanzaguizantestopo::MoveAndShoot, 5.0f, true, 5.0f);
 }
-//Funccion
-void ALanzaguizantestopo::MoveAndShoot()
+void ALanzaguizantestopo::Tick(float DeltaTime)
 {
-    if (bIsMovingRight)
+    Super::Tick(DeltaTime);
+
+    CurrentTime += DeltaTime;
+
+    if (bMovingRight)
     {
-        SetActorLocation(RightDestination);
-        bIsMovingRight = false;
-        
+        FVector NewLocation = GetActorLocation() + FVector(MovementSpeed * DeltaTime, 0, 0);
+        SetActorLocation(NewLocation);
+
+        // Si ha pasado el tiempo de desplazamiento a la derecha
+        if (CurrentTime >= ShootInterval)
+        {
+            // Aquí implementa la lógica de disparo de derecha a izquierda.
+            // Puedes instanciar un proyectil y moverlo de derecha a izquierda.
+
+            // Reinicia el temporizador y cambia la dirección.
+            CurrentTime = 0.0f;
+            bMovingRight = false;
+        }
     }
     else
     {
-     
-        SetActorLocation(LeftDestination);
-        bIsMovingRight = true;
-        // Después de completar el movimiento y disparo, vuelve a la posición inicial
-        GetWorldTimerManager().SetTimer(TimerHandle_MoveAndShoot, this, &ALanzaguizantestopo::MoveAndShoot, 5.0f, true);
-        //FVector SetActorLocation = FVector(-860.0f,1320.0f, 170.0f);
+        // Si ha pasado el tiempo de desplazamiento a la izquierda
+        if (CurrentTime >= ShootInterval)
+        {
+            // Regresa a la posición inicial
+            SetActorLocation(InitialLocation);
+
+            // Reinicia el temporizador y cambia la dirección.
+            CurrentTime = 0.0f;
+            bMovingRight = true;
+        }
     }
 
-  
-    SetActorLocation(InitialLocation);
 }
-
-//void ALanzaguizantestopo::ResetPlant()
+//Funccion
+//void ALanzaguizantestopo::MoveAndShoot()
 //{
-//    if (!bIsShooting)
+//    if (bIsMovingRight)
 //    {
-//        SetActorLocation(InitialLocation);
-//        bIsMovingRight = true;
-//
-//        // Llama a la función MoveAndShoot nuevamente después de 2 segundos
-//        GetWorldTimerManager().SetTimer(TimerHandle_MoveAndShoot, this, &ALanzaguizantestopo::MoveAndShoot, 5.0f, true);
+//        SetActorLocation(RightDestination);
+//        bIsMovingRight = false;
+//        
 //    }
+//    else
+//    {
+//     
+//        SetActorLocation(LeftDestination);
+//        bIsMovingRight = true;
+//        // Después de completar el movimiento y disparo, vuelve a la posición inicial
+//        GetWorldTimerManager().SetTimer(TimerHandle_MoveAndShoot, this, &ALanzaguizantestopo::MoveAndShoot, 5.0f, true);
+//        //FVector SetActorLocation = FVector(-860.0f,1320.0f, 170.0f);
+//    }
+//
+//  
+//    SetActorLocation(InitialLocation);
 //}
+
+

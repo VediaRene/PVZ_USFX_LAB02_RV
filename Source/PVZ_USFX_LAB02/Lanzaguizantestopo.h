@@ -18,21 +18,31 @@ public:
 	ALanzaguizantestopo();
 	// que controla la dirección de movimiento
 	bool bIsMovingRight;
-	bool bIsShooting;
+    bool bIsShooting;
 	//posicion inicial de la planta
-	FVector InitialLocation;
+    //FVector InitialLocation;
 	//almacena la ubicacion Derecha
 	FVector RightDestination;
 	//almacena la ubicacion izquierda
 	FVector LeftDestination;
 
-	 //FVector InitialLocation;
-    //FVector RightDestination;
+	UPROPERTY(EditAnywhere)
+	float MovementSpeed;
+
+	UPROPERTY(EditAnywhere)
+	float ShootInterval;
+	
 	virtual void BeginPlay() override;
 	//temporizador
 	FTimerHandle TimerHandle_MoveAndShoot;
+public:
+	virtual void Tick(float DeltaTime) override;
+private:
+	FVector InitialLocation;
+	float CurrentTime;
+	bool bMovingRight;
 
 	void MoveAndShoot();
-	//void MoveAndShoot();
-	void ResetPlant();
+	////void MoveAndShoot();
+	//void ResetPlant();
 };

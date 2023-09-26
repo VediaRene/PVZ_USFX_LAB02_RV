@@ -31,6 +31,15 @@ void EmptyLinkFunctionForGeneratedCodeLanzaguizantestopo() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MovementSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MovementSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShootInterval_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ShootInterval;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +54,24 @@ void EmptyLinkFunctionForGeneratedCodeLanzaguizantestopo() {}
 		{ "ModuleRelativePath", "Lanzaguizantestopo.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALanzaguizantestopo_Statics::NewProp_MovementSpeed_MetaData[] = {
+		{ "Category", "Lanzaguizantestopo" },
+		{ "ModuleRelativePath", "Lanzaguizantestopo.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALanzaguizantestopo_Statics::NewProp_MovementSpeed = { "MovementSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALanzaguizantestopo, MovementSpeed), METADATA_PARAMS(Z_Construct_UClass_ALanzaguizantestopo_Statics::NewProp_MovementSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALanzaguizantestopo_Statics::NewProp_MovementSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALanzaguizantestopo_Statics::NewProp_ShootInterval_MetaData[] = {
+		{ "Category", "Lanzaguizantestopo" },
+		{ "ModuleRelativePath", "Lanzaguizantestopo.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALanzaguizantestopo_Statics::NewProp_ShootInterval = { "ShootInterval", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALanzaguizantestopo, ShootInterval), METADATA_PARAMS(Z_Construct_UClass_ALanzaguizantestopo_Statics::NewProp_ShootInterval_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALanzaguizantestopo_Statics::NewProp_ShootInterval_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALanzaguizantestopo_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALanzaguizantestopo_Statics::NewProp_MovementSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALanzaguizantestopo_Statics::NewProp_ShootInterval,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALanzaguizantestopo_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALanzaguizantestopo>::IsAbstract,
 	};
@@ -54,11 +81,11 @@ void EmptyLinkFunctionForGeneratedCodeLanzaguizantestopo() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ALanzaguizantestopo_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ALanzaguizantestopo_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ALanzaguizantestopo_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ALanzaguizantestopo_Statics::Class_MetaDataParams))
@@ -72,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeLanzaguizantestopo() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALanzaguizantestopo, 2916981246);
+	IMPLEMENT_CLASS(ALanzaguizantestopo, 3636139159);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<ALanzaguizantestopo>()
 	{
 		return ALanzaguizantestopo::StaticClass();
