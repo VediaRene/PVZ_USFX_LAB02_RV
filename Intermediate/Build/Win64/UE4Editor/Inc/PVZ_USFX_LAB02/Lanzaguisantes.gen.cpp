@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeLanzaguisantes() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALanzaguisantes, 2481808430);
+	IMPLEMENT_CLASS(ALanzaguisantes, 974119941);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<ALanzaguisantes>()
 	{
 		return ALanzaguisantes::StaticClass();

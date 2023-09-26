@@ -30,6 +30,7 @@ APlant::APlant()
 	TiempoTranscurrido = 0.0f;
 	TiempoEntreDisparos = 1.0f;
 	Tags.Add(TEXT("Plant"));
+	energia = 100;
 }
 
 //void APlant::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)

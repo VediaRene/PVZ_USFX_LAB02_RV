@@ -47,8 +47,6 @@ APVZ_USFX_LAB02GameMode::APVZ_USFX_LAB02GameMode()
 	TarjetaPlanta.Value = 5;
 
 	MapTarjetasPlantas.Add(TarjetaPlanta);
-	//FilaActual = 1;
-	//ColumnaActual = 1;
 
 }
 
@@ -59,8 +57,6 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 
 	FTransform SpawnLocation;
 	SpawnLocation.SetLocation(FVector(-1500.0f, 1200.0f, 200.0f));
-
-	//-----------------------------------------ZombieComun----------------------------------------------
 	float initialPositionX = -1500.0f;
 	float initialPositionY = 1200.0f;
 
@@ -77,13 +73,9 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 			ArrayZombies.Add(NewZombieComun);
 		}
 	}
-	//----------------------------------------ZombieCono----------------------------------------------
 
-	//Define la pocion inicial del ZOmbie
-	initialPositionX = -1000.0f;
+	initialPositionX = -1500.0f;
 	initialPositionY = 1200.0f;
-	
-	
 
 	for (int32 i = 0; i < NumberZombiesCono; ++i)
 	{
@@ -98,8 +90,8 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 			ArrayZombies.Add(NewZombieCono);
 		}
 	}
-	//-----------------------------------------ZombieCubo----------------------------------------------
-	initialPositionX = -1480.0f;
+
+	initialPositionX = -1500.0f;
 	initialPositionY = 1200.0f;
 
 	for (int32 i = 0; i < NumberZombiesCubo; ++i)
@@ -115,8 +107,8 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 			ArrayZombies.Add(NewZombieCubo);
 		}
 	}
-	//----------------------------==============ZombieSenal=============-------------------------------------
-	initialPositionX = -1025.0f;
+
+	initialPositionX = -1500.0f;
 	initialPositionY = 1200.0f;
 
 	for (int32 i = 0; i < NumberZombiesSenal; ++i)
@@ -141,7 +133,6 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 
 		if (NewLanzaguisantes)
 		{
-			//NombrePlant = FName::Printf(TEXT("Planta%d_%d"), i + 1, j + 1); // Cambio en la generación del nombre
 			NewLanzaguisantes->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
 			aPlantas.Add(NewLanzaguisantes);
 		}
@@ -332,10 +323,6 @@ else {
 }*/
 }
 
-//void APVZ_USFX_LAB02GameMode::MostrarEnergiaDePlantas()
-//{
-//}
-
 
 void APVZ_USFX_LAB02GameMode::VisualizarPotenciadores() {
 	for (TPair<FString, uint32> ElementoActual : MapPotenciadores)
@@ -452,36 +439,3 @@ void APVZ_USFX_LAB02GameMode::TimerCallBackTarjetasPlantaNuez()
 {
 	MapTarjetasPlantas[TEXT("Nuez")] += 1;
 }
-
-
-
-
-//void APVZ_USFX_LAB02GameMode::MostrarEnergiaDePlantas()
-//{
-//
-//	NombrePlanta = FString::Printf(TEXT("Planta%d_%d"), FilaActual, ColumnaActual);
-//
-//	APlanta_Ataque* Planta = Planta.FindRef(NombrePlanta);
-//
-//	if (Planta)
-//	{
-//		FString Mensaje = FString::Printf(TEXT("%s: Energía %i"), *NombrePlanta, Planta->energia);
-//		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, Mensaje);
-//		UE_LOG(LogTemp, Warning, TEXT("%s"), *Mensaje);
-//
-//	}
-//
-//	ColumnaActual++;
-//
-//	if (ColumnaActual > 2) // Ajusta este valor al número total de columnas
-//	{
-//		ColumnaActual = 1;
-//		FilaActual++;
-//
-//		if (FilaActual > 5) // Ajusta este valor al número total de filas
-//		{
-//			FilaActual = 1;
-//		}
-//	}
-//
-//}

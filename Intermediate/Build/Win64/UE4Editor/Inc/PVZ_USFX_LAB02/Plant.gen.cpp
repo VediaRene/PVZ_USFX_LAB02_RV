@@ -38,6 +38,10 @@ void EmptyLinkFunctionForGeneratedCodePlant() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlantMeshComponent;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_energia_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_energia;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunOffset_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_GunOffset;
@@ -68,6 +72,15 @@ void EmptyLinkFunctionForGeneratedCodePlant() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlant_Statics::NewProp_PlantMeshComponent = { "PlantMeshComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlant, PlantMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlant_Statics::NewProp_PlantMeshComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlant_Statics::NewProp_PlantMeshComponent_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlant_Statics::NewProp_energia_MetaData[] = {
+		{ "Category", "Plant" },
+		{ "Comment", "//void OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor);\n" },
+		{ "ModuleRelativePath", "Plant.h" },
+		{ "ToolTip", "void OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor);" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlant_Statics::NewProp_energia = { "energia", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlant, energia), METADATA_PARAMS(Z_Construct_UClass_APlant_Statics::NewProp_energia_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlant_Statics::NewProp_energia_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlant_Statics::NewProp_GunOffset_MetaData[] = {
 		{ "Category", "Gameplay" },
 		{ "Comment", "/** Offset from the ships location to spawn projectiles */" },
@@ -87,6 +100,7 @@ void EmptyLinkFunctionForGeneratedCodePlant() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlant_Statics::NewProp_FireRate = { "FireRate", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlant, FireRate), METADATA_PARAMS(Z_Construct_UClass_APlant_Statics::NewProp_FireRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlant_Statics::NewProp_FireRate_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlant_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlant_Statics::NewProp_PlantMeshComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlant_Statics::NewProp_energia,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlant_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlant_Statics::NewProp_FireRate,
 	};
@@ -117,7 +131,7 @@ void EmptyLinkFunctionForGeneratedCodePlant() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlant, 2082242078);
+	IMPLEMENT_CLASS(APlant, 1929334370);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<APlant>()
 	{
 		return APlant::StaticClass();

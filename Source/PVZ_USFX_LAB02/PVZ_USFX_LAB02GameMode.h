@@ -39,16 +39,9 @@ public:
 	TMap<FName, int32> mOrdaZombies;
 	int32 NumberZombiesSpawned = 0;
 	TArray<APlant*> aPlantas;
-
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-
-public:
-	/*void MostrarEnergiaDePlantas();
-	int FilaActual;
-	int ColumnaActual;*/
 protected:
 	virtual void BeginPlay() override;
 	//
@@ -58,7 +51,6 @@ protected:
 	class AZombieSenal* SpawnZombieSenal(FVector _spawnPosition);
 
 	class APlant* SpawnPlant(FVector _spawnPosition);
-	/*FString NombrePlant;*/
 
 	class ALanzaguisantes* SpawnPlantLanzaguisantes(FVector _spawnPosition);
 	class AGirasol* SpawnPlantGirasol(FVector _spawnPosition);
@@ -75,7 +67,6 @@ protected:
 	float TiempoTrancurridoSiguienteTarjetaNuez = 0.0f;
 	float TiempoTrancurridoSiguienteTarjetaLanzamaiz = 0.0f;
 	float TiempoTrancurridoSiguienteTarjetaRepetidora = 0.0f;
-	
 	//Planta Girasol
 
 
@@ -90,5 +81,3 @@ protected:
 	void VisualizarTarjetasPlantas();
 
 };
-
-

@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeNuez() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANuez, 663373298);
+	IMPLEMENT_CLASS(ANuez, 2503829220);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<ANuez>()
 	{
 		return ANuez::StaticClass();
