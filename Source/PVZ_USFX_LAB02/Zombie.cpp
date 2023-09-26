@@ -94,6 +94,7 @@ void AZombie::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitive
 }
 
 
+
 // Called when the game starts or when spawned
 void AZombie::BeginPlay()
 {

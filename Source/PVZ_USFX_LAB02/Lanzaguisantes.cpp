@@ -11,4 +11,7 @@ ALanzaguisantes::ALanzaguisantes()
 	Tags.Add(TEXT("Lanzaguisantes"));
 	//Velocidad de disparo
 	FireRate = 0.2f;
+	energia = 150;
+
+
 }

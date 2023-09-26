@@ -44,10 +44,11 @@ public:
 	float TiempoEntreDisparos;
 	float TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser);
 	float Health = 20.0f;
-
+	float MovementSpeed = 6.1f;
 	void Defender() PURE_VIRTUAL(APlant::Defender, );
 
 private:
+
 	/* Flag to control firing  */
 	uint32 bCanFire : 1;
 

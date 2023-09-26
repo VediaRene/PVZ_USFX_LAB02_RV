@@ -9,6 +9,7 @@
 class APotenciador;
 
 UCLASS(MinimalAPI)
+
 class APVZ_USFX_LAB02GameMode : public AGameModeBase
 {
 	GENERATED_BODY()
@@ -22,6 +23,7 @@ public:
 	//TMap<APotenciador*, int32> MapPotenciadores;
 	TMap<FString, uint32> MapPotenciadores;
 	TMap<FString, uint32> MapTarjetasPlantas;
+	//TArray<AZombie*> ZombieHorde;
 	//PLanta
 	int32 NumberPLantLanzaGuizantes = 3;
 	int32 NumberPLantGirasol = 2;
@@ -68,6 +70,7 @@ public:
 	class ARepetidora* SpawnPlantRepetidora(FVector _spawnPosition);
 	class ANuez* SpawnPlantNuez(FVector _spawnPosition);
 	class AHongo* SpawnPlantHongo(FVector _spawnPosition);
+	class ALanzaguizantestopo* SpawnPlantLanzaguizantestopo(FVector _spawnPosition);
 
 	float TiempoTranscurrido = 0.0f;
 	float TiempoTranscurridoSiguientePala = 0.0f;
@@ -90,7 +93,8 @@ public:
 	void TimerCallBackTarjetasPlantaNuez();
 	void VisualizarPotenciadores();
 	void VisualizarTarjetasPlantas();
-	void Disparar();
-
-
+	//void MoveAndShoot();
+	//void Disparar();
+	//void GenerateZombieHorde();
+	
 };

@@ -16,6 +16,7 @@
 #include "Girasol.h"
 #include "Nuez.h"
 #include "Hongo.h"
+#include "Lanzaguizantestopo.h"
 
 APVZ_USFX_LAB02GameMode::APVZ_USFX_LAB02GameMode()
 {
@@ -162,7 +163,7 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 			NewGirasol->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
 			aPlantas.Add(NewGirasol);
 
-			GEngine->AddOnScreenDebugMessage(-1, 55.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewGirasol->GetName(), NewGirasol->energia));
+			GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewGirasol->GetName(), NewGirasol->energia));
 		}
 
 
@@ -237,6 +238,31 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 			//ngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewHongo->GetName(), NewHongo->energia));
 		}
 	}
+	//-------------------------------------------->LanzaGuizantestopo<------------------------------------------------
+	initialPositionX = -600.0f;
+	initialPositionY = 640.0f;
+	for (int i = 0; i < 1; i++)
+	{
+		ALanzaguizantestopo* NewLanzaguizantestopo = SpawnPlantLanzaguizantestopo(FVector(initialPositionX + i * 150.0f, initialPositionY, 200.0f));
+
+		if (NewLanzaguizantestopo)
+		{
+			NewLanzaguizantestopo->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
+			aPlantas.Add(NewLanzaguizantestopo);
+			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewLanzaguisantestopo->GetName(), NewLanzaguisantestopo->energia));
+
+
+		}
+
+
+		for (int j = 0; j < 2; j++) {
+			APlant* NewLanzaguizantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
+			aPlantas.Add(NewLanzaguizantes);
+			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewLanzaguisantes->GetName(), NewLanzaguisantes->energia));
+
+		}
+	}
+
 	//initialPositionX = -1500.0f;
 	//initialPositionY = 1000.0f;
 	//for (int i = 0; i < 5; i++)
@@ -339,6 +365,7 @@ void APVZ_USFX_LAB02GameMode::Tick(float DeltaTime)
 else {
 	VisualizarPotenciadores();
 }*/
+
 }
 
 
@@ -363,6 +390,61 @@ void APVZ_USFX_LAB02GameMode::VisualizarTarjetasPlantas() {
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Planta: %s, tiempo recarga: %d"), *Llave, Valor));
 	}
 }
+
+
+//void APVZ_USFX_LAB02GameMode::GenerateZombieHorde()
+//{
+//	// Genera dos zombies cono
+//	for (int32 i = 0; i < 2; ++i)
+//	{
+//		AZombie* Zombie = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), FVector(0, 0, 0), FRotator(0, 0, 0));
+//		Zombie->InitializeZombie(EZombieType::Cono);
+//		ZombieHorde.Add(Zombie);
+//	}
+//
+//	// Genera dos zombies cubo
+//	for (int32 i = 0; i < 2; ++i)
+//	{
+//		AZombie* Zombie = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), FVector(0, 0, 0), FRotator(0, 0, 0));
+//		Zombie->InitializeZombie(EZombieType::Cubo);
+//		ZombieHorde.Add(Zombie);
+//	}
+//
+//	// Genera ocho zombies comunes
+//	for (int32 i = 0; i < 8; ++i)
+//	{
+//		AZombie* Zombie = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), FVector(0, 0, 0), FRotator(0, 0, 0));
+//		Zombie->InitializeZombie(EZombieType::Comun);
+//		ZombieHorde.Add(Zombie);
+//	}
+//}
+
+//void APVZ_USFX_LAB02GameMode::VisualizeZombie()
+//{
+//	// Genera dos zombies cono
+//	for (int32 i = 0; i < 2; ++i)
+//	{
+//		AZombie* Zombie = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), FVector(0, 0, 0), FRotator(0, 0, 0));
+//		Zombie->InitializeZombie(EZombieType::Cono);
+//		ZombieHorde.Add(Zombie);
+//	}
+//
+//	// Genera dos zombies cubo
+//	for (int32 i = 0; i < 2; ++i)
+//	{
+//		AZombie* Zombie = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), FVector(0, 0, 0), FRotator(0, 0, 0));
+//		Zombie->InitializeZombie(EZombieType::Cubo);
+//		ZombieHorde.Add(Zombie);
+//	}
+//
+//	// Genera ocho zombies comunes
+//	for (int32 i = 0; i < 8; ++i)
+//	{
+//		AZombieActor* Zombie = GetWorld()->SpawnActor<AZombieActor>(AZombieActor::StaticClass(), FVector(0, 0, 0), FRotator(0, 0, 0));
+//		Zombie->InitializeZombie(EZombieType::Comun);
+//		ZombieHorde.Add(Zombie);
+//	}
+//}
 
 
 
@@ -445,6 +527,17 @@ AHongo* APVZ_USFX_LAB02GameMode::SpawnPlantHongo(FVector _spawnPosition)
 	SpawnLocation.SetLocation(_spawnPosition);
 	return GetWorld()->SpawnActor<AHongo>(AHongo::StaticClass(), SpawnLocation);
 }
+
+ALanzaguizantestopo* APVZ_USFX_LAB02GameMode::SpawnPlantLanzaguizantestopo(FVector _spawnPosition)
+{
+	FTransform SpawnLocation;
+	SpawnLocation.SetLocation(_spawnPosition);
+	return GetWorld()->SpawnActor<ALanzaguizantestopo>(ALanzaguizantestopo::StaticClass(), SpawnLocation);
+}
+
+
+
+
 
 
 
