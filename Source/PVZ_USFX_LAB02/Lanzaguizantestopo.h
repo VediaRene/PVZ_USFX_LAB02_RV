@@ -17,8 +17,8 @@ public:
 	
 	ALanzaguizantestopo();
 	// que controla la dirección de movimiento
-	bool bIsMovingRight;
-    bool bIsShooting;
+	//bool bIsMovingRight;
+    //bool bIsShooting;
 	//posicion inicial de la planta
     //FVector InitialLocation;
 	//almacena la ubicacion Derecha
@@ -42,7 +42,7 @@ private:
 	float CurrentTime;
 	bool bMovingRight;
 
-	void MoveAndShoot();
+	//void MoveAndShoot();
 	////void MoveAndShoot();
 	//void ResetPlant();
 };
