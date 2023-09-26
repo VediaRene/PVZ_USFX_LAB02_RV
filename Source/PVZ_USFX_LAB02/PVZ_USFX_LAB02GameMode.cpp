@@ -162,7 +162,7 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 			NewGirasol->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
 			aPlantas.Add(NewGirasol);
 
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewGirasol->GetName(), NewGirasol->energia));
+			GEngine->AddOnScreenDebugMessage(-1, 55.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewGirasol->GetName(), NewGirasol->energia));
 		}
 
 
