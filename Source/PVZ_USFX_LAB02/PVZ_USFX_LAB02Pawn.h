@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "PVZ_USFX_LAB02Pawn.generated.h"
-
+class APlant;
 UCLASS(Blueprintable)
 class APVZ_USFX_LAB02Pawn : public APawn
 {
@@ -41,7 +41,11 @@ public:
 	/** Sound to play each time we fire */
 	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
 	class USoundBase* FireSound;
-
+	//--------------------------------------------------------------------------
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+	//--------------------------------------------------------------------------
 	// Begin Actor Interface
 	virtual void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
@@ -58,7 +62,12 @@ public:
 	static const FName MoveRightBinding;
 	static const FName FireForwardBinding;
 	static const FName FireRightBinding;
-
+	//-------------------------------------------Spaws-----------------------------
+public:
+	FTimerHandle Temporizador;
+	void spawnplanta();
+	TArray<APlant*> vectorPlants;
+	//-------------------------------------------------------------------------------
 private:
 
 	/* Flag to control firing  */

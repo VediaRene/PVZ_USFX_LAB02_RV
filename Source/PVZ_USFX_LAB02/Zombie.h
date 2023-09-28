@@ -37,6 +37,8 @@ public:
 	float SpawnAfter = 0.0f;
 	float MovementSpeed = 6.1f;
 	bool bCanMove = false;
+	UPROPERTY(EditAnywhere)
+	float Velocidad;
 
 	float TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser);
 	void MoveToTarget(FVector TargetLocation);

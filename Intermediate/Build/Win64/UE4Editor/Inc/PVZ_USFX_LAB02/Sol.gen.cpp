@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeSol() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_PVZ_USFX_LAB02();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_URandomMovement_NoRegister();
 // End Cross Module References
 	void ASol::StaticRegisterNativesASol()
 	{
@@ -36,6 +37,10 @@ void EmptyLinkFunctionForGeneratedCodeSol() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MeshSol_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MeshSol;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MovimientoAleatorio_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MovimientoAleatorio;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -58,8 +63,17 @@ void EmptyLinkFunctionForGeneratedCodeSol() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASol_Statics::NewProp_MeshSol = { "MeshSol", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASol, MeshSol), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASol_Statics::NewProp_MeshSol_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASol_Statics::NewProp_MeshSol_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASol_Statics::NewProp_MovimientoAleatorio_MetaData[] = {
+		{ "Category", "Sol" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Sol.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASol_Statics::NewProp_MovimientoAleatorio = { "MovimientoAleatorio", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASol, MovimientoAleatorio), Z_Construct_UClass_URandomMovement_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASol_Statics::NewProp_MovimientoAleatorio_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASol_Statics::NewProp_MovimientoAleatorio_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASol_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASol_Statics::NewProp_MeshSol,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASol_Statics::NewProp_MovimientoAleatorio,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASol_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASol>::IsAbstract,
@@ -88,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeSol() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASol, 2699228368);
+	IMPLEMENT_CLASS(ASol, 1675234077);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<ASol>()
 	{
 		return ASol::StaticClass();

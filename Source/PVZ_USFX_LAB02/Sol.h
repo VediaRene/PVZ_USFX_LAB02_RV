@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 
-
+#include "RandomMovement.h"
 #include "Sol.generated.h"
 
 UCLASS()
@@ -18,6 +18,8 @@ public:
 	ASol();
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* MeshSol;
+	UPROPERTY(EditAnywhere)
+	URandomMovement* MovimientoAleatorio;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

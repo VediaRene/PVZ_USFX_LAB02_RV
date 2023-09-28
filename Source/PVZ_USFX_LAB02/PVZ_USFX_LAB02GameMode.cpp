@@ -17,7 +17,11 @@
 #include "Nuez.h"
 #include "Hongo.h"
 #include "Lanzaguizantestopo.h"
+#include "Sol.h"
 
+#include "Jugador.h"
+#include "Controlador.h"
+#include "AHUDPlantas.h"
 APVZ_USFX_LAB02GameMode::APVZ_USFX_LAB02GameMode()
 {
 	// set default pawn class to our character class
@@ -28,6 +32,26 @@ APVZ_USFX_LAB02GameMode::APVZ_USFX_LAB02GameMode()
 	MapPotenciadores.Add(TEXT("Abono"), 1);
 	MapPotenciadores.Add(TEXT("Agua"), 2);
 	MapPotenciadores.Add(TEXT("Pala"), 0);
+	//------------------------------------------------------
+	//Definiendo el Pawn o Peon
+	DefaultPawnClass = AJugador::StaticClass();
+	//Definiendo el Controlador
+	PlayerControllerClass = AControlador::StaticClass();
+	//Definiendo el HUD
+	HUDClass = AAHUDPlantas::StaticClass();
+
+
+
+	contador = FVector(0, 0, 0);
+	localizacion = FVector(400.0, 200.0, 100.0);
+	contador2 = 0;
+
+	//TiempoTranscurrido = 0.0f;
+
+
+	FilaActual = 1;
+	ColumnaActual = 1;
+	//-----------------------------------------------------
 
 	//GetWorldTimerManager().SetTimer(TimerHandlePotenciadoresAgua, this, &APVZ_USFX_LAB02GameMode::TimerCallBackPotenciadoresAgua, IncrementarAguaCada, false);
 	// En una función de tu clase que hereda de AActor o UObject
@@ -81,7 +105,7 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	for (int32 i = 0; i < NumberZombiesCono; ++i)
 	{
 		AZombieCono* NewZombieCono = SpawnZombieCono(FVector(initialPositionX + i * 150.0f, initialPositionY, 200.0f));
-
+		 
 		if (NewZombieCono)
 		{
 			NewZombieCono->SetSpawnAfter(FMath::RandRange(1, 10));
@@ -262,7 +286,26 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 
 		}
 	}
+	////---------------------------------------------->Sol<---------------------------------------------------------
+	//initialPositionX = -1172.0f;
+	//initialPositionY = 490.0f;
+	//for (int i = 0; i < 1; i++)
+	//{
+	//	ASol* NewSol = SpawnPlantSol(FVector(initialPositionX + i * 150.0f, initialPositionY, 200.0f));
 
+	//	if (NewSol)
+	//	{
+	//		NewSol->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
+	//		aPlantas.Add(NewSol);
+	//		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewHongo->GetName(), NewHongo->energia));
+
+	//	}
+	//	for (int j = 0; j < 2; j++) {
+	//		APlant* NewLanzaguisantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
+	//		aPlantas.Add(NewLanzaguisantes);
+	//		//ngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewHongo->GetName(), NewHongo->energia));
+	//	}
+	////}
 	//initialPositionX = -1500.0f;
 	//initialPositionY = 1000.0f;
 	//for (int i = 0; i < 5; i++)
@@ -366,6 +409,69 @@ else {
 	VisualizarPotenciadores();
 }*/
 
+}
+
+void APVZ_USFX_LAB02GameMode::Spawn()
+{
+	contador2++;
+
+	contador = contador + FVector(100, 0, 0);
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Este es un mensaje")));
+
+
+	AZombie* Zombie1 = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), localizacion, FRotator::ZeroRotator);
+
+
+
+	localizacion.X = localizacion.X + contador2 * 100;
+	localizacion.Y = localizacion.Y + contador2 * 100;
+	//localizacion = localizacion + contador;
+
+}
+
+void APVZ_USFX_LAB02GameMode::aumentovelocidad()
+{
+	for (int i = 0; i < ArrayZombies.Num(); i++)
+	{
+		ArrayZombies[i]->Velocidad = +FMath::FRandRange(0, 0.2);
+	}
+}
+
+void APVZ_USFX_LAB02GameMode::MostrarEnergiaDePlantas()
+{
+	
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Este es un mensaje")));
+
+	NombrePlanta = FString::Printf(TEXT("Planta %d_%d"), FilaActual, ColumnaActual);
+
+	APlant* Planta = Plantas.FindRef(NombrePlanta);
+
+	if (Planta)
+	{
+		FString Mensaje = FString::Printf(TEXT("%s: Energia %i"), *NombrePlanta, Planta->energia);
+
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, Mensaje);
+
+		UE_LOG(LogTemp, Warning, TEXT("%s"), *Mensaje);
+
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("No se encontró la planta")));
+	}
+
+	ColumnaActual++;
+
+	if (ColumnaActual > 2) // Ajusta este valor al número total de columnas
+	{
+		ColumnaActual = 1;
+		FilaActual++;
+
+		if (FilaActual > 5) // Ajusta este valor al número total de filas
+		{
+			FilaActual = 1;
+		}
+	}
 }
 
 
@@ -533,6 +639,13 @@ ALanzaguizantestopo* APVZ_USFX_LAB02GameMode::SpawnPlantLanzaguizantestopo(FVect
 	FTransform SpawnLocation;
 	SpawnLocation.SetLocation(_spawnPosition);
 	return GetWorld()->SpawnActor<ALanzaguizantestopo>(ALanzaguizantestopo::StaticClass(), SpawnLocation);
+}
+
+ASol* APVZ_USFX_LAB02GameMode::SpawnPlantSol(FVector _spawnPosition)
+{
+	FTransform SpawnLocation;
+	SpawnLocation.SetLocation(_spawnPosition);
+	return GetWorld()->SpawnActor<ASol>(ASol::StaticClass(), SpawnLocation);
 }
 
 

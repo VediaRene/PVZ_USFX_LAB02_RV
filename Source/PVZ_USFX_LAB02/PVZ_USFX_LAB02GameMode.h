@@ -20,6 +20,7 @@ public:
 	TArray<class AZombie*> ArrayZombies;
 	TArray<class APlant*> ArrayPlants;
 	TArray<class APlant*> ArrayPlant;
+	TArray<class ASol*> ArraySol;
 	//TMap<APotenciador*, int32> MapPotenciadores;
 	TMap<FString, uint32> MapPotenciadores;
 	TMap<FString, uint32> MapTarjetasPlantas;
@@ -51,6 +52,48 @@ public:
 protected:
 public:
 
+	//----------------------------------------------------------
+	FTimerHandle Temporizador;
+
+	void Spawn();
+
+	FVector contador;
+
+
+	int contador2;
+
+
+	FVector localizacion;
+
+
+	// Declarar un vector de objetos
+	//TArray<AZombie*> Zombies;
+	// Declarar un vector de objetos
+
+	TArray<APlant*> Plantas2;
+
+	//float TiempoTranscurrido;
+
+	void aumentovelocidad();
+
+	void MostrarEnergiaDePlantas();
+
+
+	class AZombieComun* NuevoZombie;
+
+
+	FTimerHandle Temporizador2;
+
+
+	class ALanzaguisantes* NuevaPlantaGuisante;
+
+
+
+	int FilaActual;
+	int ColumnaActual;
+
+	//----------------------------------------------------------
+
 	/*TMap<FString, APlant*> Plantas;
 	
 	FString NombrePlanta;
@@ -71,7 +114,7 @@ public:
 	class ANuez* SpawnPlantNuez(FVector _spawnPosition);
 	class AHongo* SpawnPlantHongo(FVector _spawnPosition);
 	class ALanzaguizantestopo* SpawnPlantLanzaguizantestopo(FVector _spawnPosition);
-
+	class ASol* SpawnPlantSol(FVector _spawnPosition);
 	float TiempoTranscurrido = 0.0f;
 	float TiempoTranscurridoSiguientePala = 0.0f;
 	float TiempoTranscurridoSiguienteAbono = 0.0f;

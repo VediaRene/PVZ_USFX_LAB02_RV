@@ -12,6 +12,8 @@
 #include "Engine/StaticMesh.h"
 #include "Kismet/GameplayStatics.h"
 #include "Sound/SoundBase.h"
+#include "Zombie.h"
+#include "Plant.h"
 
 const FName APVZ_USFX_LAB02Pawn::MoveForwardBinding("MoveForward");
 const FName APVZ_USFX_LAB02Pawn::MoveRightBinding("MoveRight");
@@ -19,7 +21,10 @@ const FName APVZ_USFX_LAB02Pawn::FireForwardBinding("FireForward");
 const FName APVZ_USFX_LAB02Pawn::FireRightBinding("FireRight");
 
 APVZ_USFX_LAB02Pawn::APVZ_USFX_LAB02Pawn()
-{	
+{	//----------------------------------------------------------------------------------
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+	//-----------------------------------------------------------------------------------
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("/Game/TwinStick/Meshes/TwinStickUFO.TwinStickUFO"));
 	// Create the mesh component
 	ShipMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShipMesh"));
@@ -62,6 +67,35 @@ void APVZ_USFX_LAB02Pawn::SetupPlayerInputComponent(class UInputComponent* Playe
 	PlayerInputComponent->BindAxis(FireForwardBinding);
 	PlayerInputComponent->BindAxis(FireRightBinding);
 }
+//-------------------------------------------------------------------------------------
+void APVZ_USFX_LAB02Pawn::BeginPlay()
+{
+	Super::BeginPlay();
+
+
+	AZombie* Zombie1 = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), FVector(400.0, 200.0, 100.0), FRotator::ZeroRotator);
+
+
+
+
+	float RandomX = FMath::RandRange(-1000, 1000);
+	float RandomY = FMath::RandRange(-1000, 1000);
+	float Z = 200; // Altura en Z
+
+	FVector SpawnLocation = FVector(RandomX, RandomY, Z);
+
+	APlant* Planta1 = GetWorld()->SpawnActor<APlant>(APlant::StaticClass(), FVector(RandomX, RandomY, Z), FRotator(150, 253, 180));
+
+
+
+	//AJugador* Jugador = GetWorld()->SpawnActor<AJugador>(AJugador::StaticClass(), FVector(RandomX, RandomY, Z), FRotator(150, 253, 180));
+
+
+	UWorld* const World = GetWorld();
+	World->GetTimerManager().SetTimer(Temporizador, this, &APVZ_USFX_LAB02Pawn::spawnplanta, 2, false);
+
+}
+//------------------------------------------------------------------------------------
 
 void APVZ_USFX_LAB02Pawn::Tick(float DeltaSeconds)
 {
@@ -136,4 +170,24 @@ void APVZ_USFX_LAB02Pawn::ShotTimerExpired()
 {
 	bCanFire = true;
 }
+//---------------------------------------------------------------------------------------
+void APVZ_USFX_LAB02Pawn::spawnplanta()
+{
+	//Se crean las plantas dinamicamente
+	FVector SpawnLocationPlant = FVector(-800.0f, -600.0f, 160.0f);
+	FVector SpawnLocationPlantTemp = SpawnLocationPlant;
+
+
+	for (int i = 0; i < 5; i++) {
+		SpawnLocationPlantTemp.X += 100;
+		for (int j = 0; j < 2; j++) {
+			SpawnLocationPlantTemp.Y += 80;
+			APlant* NuevoPlant = GetWorld()->SpawnActor<APlant>(APlant::StaticClass(), SpawnLocationPlantTemp, FRotator::ZeroRotator);
+			vectorPlants.Add(NuevoPlant);
+			//	SpawnLocationPlant = SpawnLocationPlantTemp;
+		}
+		SpawnLocationPlantTemp.Y = SpawnLocationPlant.Y;
+	}
+}
+//----------------------------------------------------------------------------------------
 
