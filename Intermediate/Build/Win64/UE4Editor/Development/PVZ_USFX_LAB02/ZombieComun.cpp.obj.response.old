@@ -32,30 +32,36 @@
 /wd4244
 /wd4838
 /I .
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
 /I Runtime
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
+/I Runtime\Slate\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
+/I Runtime\ApplicationCore\Public
+/I Runtime\RHI\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
+/I Runtime\InputCore\Classes
+/I Runtime\InputCore\Public
+/I Runtime\Json\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
+/I Runtime\SlateCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
+/I Runtime\ImageWrapper\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay
+/I Runtime\HeadMountedDisplay\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
+/I Runtime\AugmentedReality\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh
+/I Runtime\MRMesh\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
 /I Runtime\Net\Core\Public
-/I Runtime\ApplicationCore\Public
-/I Runtime\RHI\Public
-/I Runtime\Json\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
-/I Runtime\SlateCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
-/I Runtime\InputCore\Classes
-/I Runtime\InputCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
-/I Runtime\Slate\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
-/I Runtime\ImageWrapper\Public
 /I Runtime\Messaging\Public
 /I Runtime\MessagingCommon\Public
 /I Runtime\RenderCore\Public
@@ -156,8 +162,6 @@
 /I Developer\Settings\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials
 /I Editor\IntroTutorials\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay
-/I Runtime\HeadMountedDisplay\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\VREditor
 /I Editor\VREditor
 /I Editor\VREditor\Public
@@ -231,8 +235,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02"
-/I "C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source"
+/I G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02
+/I G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -262,12 +266,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieComun.cpp"
-/FI"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Development\PVZ_USFX_LAB02\Definitions.PVZ_USFX_LAB02.h"
-/Fo"C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Development\PVZ_USFX_LAB02\ZombieComun.cpp.obj"
+/FI"G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\PVZ_USFX_LAB02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieComun.cpp"
+/FI"G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Development\PVZ_USFX_LAB02\Definitions.PVZ_USFX_LAB02.h"
+/Fo"G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Development\PVZ_USFX_LAB02\ZombieComun.cpp.obj"
 /TP
 /GR-
 /W4

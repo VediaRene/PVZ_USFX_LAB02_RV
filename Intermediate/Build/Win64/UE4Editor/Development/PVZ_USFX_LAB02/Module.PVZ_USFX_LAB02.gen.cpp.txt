@@ -1,66 +1,119 @@
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Development\PVZ_USFX_LAB02\Definitions.PVZ_USFX_LAB02.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/AbonoMagico.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Development\PVZ_USFX_LAB02\Definitions.PVZ_USFX_LAB02.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/AbonoMagico.gen.cpp
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/AbonoMagico.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Potenciador.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Potenciador.generated.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\AbonoMagico.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ActorJerarquico.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ActorJerarquico.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ActorJerarquico.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/CustomSceneComponent.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/CustomSceneComponent.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\CustomSceneComponent.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Girasol.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Girasol.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Plant.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Plant.generated.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Girasol.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Hongo.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Hongo.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Hongo.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Lanzaguisantes.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Lanzaguisantes.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Lanzaguisantes.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Lanzaguizantestopo.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Lanzaguizantestopo.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Lanzaguizantestopo.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/MegaSol.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/MegaSol.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\MegaSol.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Nuez.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Nuez.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Nuez.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Plant.gen.cpp
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Potenciador.gen.cpp
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/AbonoMagico.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Potenciador.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Potenciador.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\AbonoMagico.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ActorJerarquico.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ActorJerarquico.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ActorJerarquico.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/AHUDPlantas.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/AHUDPlantas.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\AHUDPlantas.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Controlador.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Controlador.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Controlador.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/CrillaPasto.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/CrillaPasto.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Grilla.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Grilla.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\CrillaPasto.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/CustomSceneComponent.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/CustomSceneComponent.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\CustomSceneComponent.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Girasol.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Girasol.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Plant.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Plant.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Girasol.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/GridaManager.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/GridaManager.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\GridaManager.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Grilla.gen.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/GrillaAgua.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/GrillaAgua.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\GrillaAgua.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Guisantralladora.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Guisantralladora.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PlantaAtaque.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PlantaAtaque.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Guisantralladora.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Hongo.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Hongo.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Hongo.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Jugador.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Jugador.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Jugador.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Lanzaguisantes.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Lanzaguisantes.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Lanzaguisantes.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Lanzaguizantestopo.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Lanzaguizantestopo.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Lanzaguizantestopo.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/MegaSol.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/MegaSol.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\MegaSol.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Nuez.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Nuez.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Nuez.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Plant.gen.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PlantaAtaque.gen.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Potenciador.gen.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02GameMode.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02GameMode.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Pawn.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02Projectile.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02Projectile.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB0Q2GameStateBase.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB0Q2GameStateBase.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Pawn.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02Projectile.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02Projectile.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB0Q2GameStateBase.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB0Q2GameStateBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameStateBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameStateBase.generated.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB0Q2GameStateBase.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/RandomMovement.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/RandomMovement.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\RandomMovement.generated.h
-C:/Users/Dpersonal/Documents/Visual Studio 2022/gitIng/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Repetidora.gen.cpp
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Repetidora.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Repetidora.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB0Q2GameStateBase.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/RandomMovement.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/RandomMovement.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\RandomMovement.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Repetidora.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Repetidora.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Repetidora.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Sol.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Sol.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Sol.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/StiloWidgetSlateWidgetStyle.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/StiloWidgetSlateWidgetStyle.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\StiloWidgetSlateWidgetStyle.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Zombie.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Zombie.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Zombie.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ZombieComun.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ZombieComun.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieComun.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ZombieCono.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ZombieCono.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieCono.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ZombieCubo.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ZombieCubo.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieCubo.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ZombieSenal.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ZombieSenal.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieSenal.generated.h

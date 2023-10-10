@@ -1,5 +1,5 @@
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Development\PVZ_USFX_LAB02\Definitions.PVZ_USFX_LAB02.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\SSeleccionPlantas.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Development\PVZ_USFX_LAB02\Definitions.PVZ_USFX_LAB02.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\SSeleccionPlantas.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Slate\Public\SlateBasics.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Core.h
@@ -226,10 +226,10 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/I
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Docking/SDockTab.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Docking/SDockableTab.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Docking/SDockTabStack.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\AHUDPlantas.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\AHUDPlantas.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-C:\Users\Dpersonal\Documents\Visual Studio 2022\gitIng\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\AHUDPlantas.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\AHUDPlantas.generated.h

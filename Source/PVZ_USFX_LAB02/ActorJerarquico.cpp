@@ -23,9 +23,9 @@ AActorJerarquico::AActorJerarquico()
 			}
 	RootComponent = Root;
 	BoxOne->AttachTo(Root);
-	BoxTwo->AttachTo(ChildSceneComponent);
-	ChildSceneComponent->AttachTo(Root);
-	ChildSceneComponent->SetRelativeTransform(FTransform(FRotator(0, 0, 0), FVector(250, 300, 0), FVector(0.1f)));
+	//BoxTwo->AttachTo(ChildSceneComponent);
+	//ChildSceneComponent->AttachTo(Root);
+	//ChildSceneComponent->SetRelativeTransform(FTransform(FRotator(0, 0, 0), FVector(250, 300, 0), FVector(0.1f)));
 }
 
 // Called when the game starts or when spawned

@@ -12,28 +12,28 @@ void AAHUDPlantas::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (GEngine && GEngine->GameViewport)
-	{
+	//if (GEngine && GEngine->GameViewport)
+	//{
 
-		WidgetSeleccion = SNew(SSeleccionPlantas).OwningHUD(this);
+	//	WidgetSeleccion = SNew(SSeleccionPlantas).OwningHUD(this);
 
-		GEngine->GameViewport->AddViewportWidgetContent(SAssignNew(WidgetActivo, SWeakWidget).PossiblyNullContent(WidgetSeleccion.ToSharedRef()));
+	//	GEngine->GameViewport->AddViewportWidgetContent(SAssignNew(WidgetActivo, SWeakWidget).PossiblyNullContent(WidgetSeleccion.ToSharedRef()));
 
-	}
+	//}
 }
 
 void AAHUDPlantas::QuitarHud()
 {
-	if (GEngine && GEngine->GameViewport && WidgetActivo.IsValid())
-	{
+	//if (GEngine && GEngine->GameViewport && WidgetActivo.IsValid())
+	//{
 
-		GEngine->GameViewport->RemoveViewportWidgetContent(WidgetActivo.ToSharedRef());
+	//	GEngine->GameViewport->RemoveViewportWidgetContent(WidgetActivo.ToSharedRef());
 
-		if (PlayerOwner) {
-			//PlayerOwner->bShowMouseCursor = false;
-			PlayerOwner->SetInputMode(FInputModeGameOnly());
-		}
-	}
+	//	if (PlayerOwner) {
+	//		//PlayerOwner->bShowMouseCursor = false;
+	//		PlayerOwner->SetInputMode(FInputModeGameOnly());
+	//	}
+	//}
 }
 
 void AAHUDPlantas::SpawnPlanta()

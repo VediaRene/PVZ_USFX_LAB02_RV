@@ -118,7 +118,7 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 
 	initialPositionX = -1500.0f;
 	initialPositionY = 1200.0f;
-
+	/////
 	for (int32 i = 0; i < NumberZombiesCubo; ++i)
 	{
 		AZombieCubo* NewZombieCubo = SpawnZombieCubo(FVector(initialPositionX + i * 150.0f, initialPositionY, 200.0f));
