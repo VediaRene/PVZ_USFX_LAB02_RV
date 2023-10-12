@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PVZ_USFX_LAB02.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AFBB945A-57FB-44BE-BCFC-7CF6B89E5767}</UniqueIdentifier>
+      <UniqueIdentifier>{26B8519F-5511-4C52-834F-878A637F5FB4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PVZ_USFX_LAB02.Target.cs">
       <Filter>Source</Filter>
@@ -16,7 +16,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\PVZ_USFX_LAB02.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{D2678A04-7A5D-43E8-AAB2-E36617229322}</UniqueIdentifier>
+      <UniqueIdentifier>{D53830A5-DCB6-48C8-829A-79FEE1FE585C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PVZ_USFX_LAB02">
-      <UniqueIdentifier>{404D91A1-27BF-4427-B325-CA23306E010C}</UniqueIdentifier>
+      <UniqueIdentifier>{F98F687E-7C69-44C4-AD2D-4EC9EBF66E1C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\AbonoMagico.cpp">
       <Filter>Source\PVZ_USFX_LAB02</Filter>

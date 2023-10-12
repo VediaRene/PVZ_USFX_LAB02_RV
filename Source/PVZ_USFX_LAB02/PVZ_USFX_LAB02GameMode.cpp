@@ -19,6 +19,10 @@
 #include "Lanzaguizantestopo.h"
 #include "Sol.h"
 
+#include "HotelLodgingBuilder.h"
+//#include "ArchitecturalEngineer.h"
+#include "Lodging.h"
+
 #include "Jugador.h"
 #include "Controlador.h"
 #include "AHUDPlantas.h"
@@ -79,6 +83,19 @@ APVZ_USFX_LAB02GameMode::APVZ_USFX_LAB02GameMode()
 void APVZ_USFX_LAB02GameMode::BeginPlay()
 {
 	Super::BeginPlay();
+	//---------------------------Inicializacion del patron builder------------------------------------------------
+	////Spawn Builder and Engineer
+	//HotelBuilder = GetWorld()->SpawnActor<AHotelLodgingBuilder>
+	//	(AHotelLodgingBuilder::StaticClass());
+	//Engineer = GetWorld()->SpawnActor<AArchitecturalEngineer>
+	//	(AArchitecturalEngineer::StaticClass());
+	////Set the Builder for the Engineer and create the buildings
+	//Engineer->SetLodgingBuilder(HotelBuilder);
+	//Engineer->ConstructLodging();
+	////Get the Engineer's Lodging and Logs the created buildings
+	//ALodging* Lodging = Engineer->GetLodging();
+	//Lodging->LodgingCharacteristics();
+	//-------------------------------------finalizacion del patron bilder----------------------------------
 
 	FTransform SpawnLocation;
 	SpawnLocation.SetLocation(FVector(-1500.0f, 1200.0f, 200.0f));

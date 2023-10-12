@@ -139,5 +139,13 @@ public:
 	//void MoveAndShoot();
 	//void Disparar();
 	//void GenerateZombieHorde();
+	//public:
+	//	//The Builder Actor
+	//	UPROPERTY(VisibleAnywhere, Category = "Main")
+	//	class AHotelLodgingBuilder* HotelBuilder;
+	//	//The Engineer Actor
+	//	UPROPERTY(VisibleAnywhere, Category = "Main")
+	//	class AArchitecturalEngineer* Engineer;
+
 	
 };

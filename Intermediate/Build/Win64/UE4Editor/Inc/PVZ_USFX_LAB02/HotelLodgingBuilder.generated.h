@@ -64,7 +64,7 @@ public: \
 	FORCEINLINE static uint32 __PPO__Lodging() { return STRUCT_OFFSET(AHotelLodgingBuilder, Lodging); }
 
 
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_HotelLodgingBuilder_h_8_PROLOG
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_HotelLodgingBuilder_h_9_PROLOG
 #define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_HotelLodgingBuilder_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
