@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x28ED9182,
-				0xEBC611D8,
+				0xD068C7E3,
+				0x6FE2FB94,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

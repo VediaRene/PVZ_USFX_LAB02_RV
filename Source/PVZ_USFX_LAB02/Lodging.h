@@ -15,8 +15,6 @@ class PVZ_USFX_LAB02_API ALodging : public AActor, public IFloorPlan
 public:	
 	// Sets default values for this actor's properties
 	ALodging();
-
-
 private:
 	//The Swimming Pool's name
 	FString SwimmingPool;
@@ -44,5 +42,4 @@ public:
 	void SetRestaurants(FString myRestaurants);
 	//Logs all the Lodging floors
 	void LodgingCharacteristics();
-
 };

@@ -62,9 +62,6 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LA
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Lanzaguisantes.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Lanzaguisantes.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Lanzaguisantes.generated.h
-G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Lanzaguizantestopo.gen.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Lanzaguizantestopo.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Lanzaguizantestopo.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Lodging.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Lodging.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Lodging.generated.h
@@ -83,14 +80,6 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ProyectilFuego.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ProyectilFuego.generated.h
-G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02.init.gen.cpp
-G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.gen.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02GameMode.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
@@ -104,6 +93,10 @@ G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LA
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB0Q2GameStateBase.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB0Q2GameStateBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameStateBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameStateBase.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB0Q2GameStateBase.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/RandomMovement.gen.cpp

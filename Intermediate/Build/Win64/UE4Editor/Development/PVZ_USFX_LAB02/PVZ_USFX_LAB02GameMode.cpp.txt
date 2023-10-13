@@ -39,8 +39,6 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Nuez.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Nuez.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Hongo.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Hongo.generated.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Lanzaguizantestopo.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Lanzaguizantestopo.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Sol.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\RandomMovement.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\RandomMovement.generated.h
@@ -49,6 +47,8 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\HotelLodgingBuilder.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\LodgingBuilder.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\LodgingBuilder.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\HotelLodgingBuilder.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ArchitecturalEngineer.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ArchitecturalEngineer.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Lodging.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\FloorPlan.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\FloorPlan.generated.h

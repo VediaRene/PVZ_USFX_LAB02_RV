@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PVZ_USFX_LAB02.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{26B8519F-5511-4C52-834F-878A637F5FB4}</UniqueIdentifier>
+      <UniqueIdentifier>{633E463A-5A79-4B76-9EF3-5802EFCB7399}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PVZ_USFX_LAB02.Target.cs">
       <Filter>Source</Filter>
@@ -16,7 +16,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\PVZ_USFX_LAB02.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{D53830A5-DCB6-48C8-829A-79FEE1FE585C}</UniqueIdentifier>
+      <UniqueIdentifier>{FFBE2865-4982-4100-B8E3-B5C7F1D7C3EC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PVZ_USFX_LAB02">
-      <UniqueIdentifier>{F98F687E-7C69-44C4-AD2D-4EC9EBF66E1C}</UniqueIdentifier>
+      <UniqueIdentifier>{91F06DB8-1908-4B01-8B0C-12479864FB0A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\AbonoMagico.cpp">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
@@ -52,6 +52,12 @@
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\AHUDPlantas.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\ArchitecturalEngineer.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\ArchitecturalEngineer.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\Controlador.cpp">
@@ -130,12 +136,6 @@
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\Lanzaguisantes.h">
-      <Filter>Source\PVZ_USFX_LAB02</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\Lanzaguizantestopo.cpp">
-      <Filter>Source\PVZ_USFX_LAB02</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\Lanzaguizantestopo.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\Lodging.cpp">
@@ -235,12 +235,6 @@
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\Sol.h">
-      <Filter>Source\PVZ_USFX_LAB02</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\SSeleccionPlantas.cpp">
-      <Filter>Source\PVZ_USFX_LAB02</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\SSeleccionPlantas.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\StiloWidgetSlateWidgetStyle.cpp">

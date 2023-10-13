@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02GameMode() {}
 	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_APVZ_USFX_LAB02GameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_PVZ_USFX_LAB02();
+	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_AHotelLodgingBuilder_NoRegister();
+	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_AArchitecturalEngineer_NoRegister();
 // End Cross Module References
 	void APVZ_USFX_LAB02GameMode::StaticRegisterNativesAPVZ_USFX_LAB02GameMode()
 	{
@@ -31,6 +33,15 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02GameMode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HotelBuilder_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HotelBuilder;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Engineer_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Engineer;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +57,28 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02GameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_HotelBuilder_MetaData[] = {
+		{ "Category", "Main" },
+		{ "Comment", "//The Builder Actor\n" },
+		{ "ModuleRelativePath", "PVZ_USFX_LAB02GameMode.h" },
+		{ "ToolTip", "The Builder Actor" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_HotelBuilder = { "HotelBuilder", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APVZ_USFX_LAB02GameMode, HotelBuilder), Z_Construct_UClass_AHotelLodgingBuilder_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_HotelBuilder_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_HotelBuilder_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Engineer_MetaData[] = {
+		{ "Category", "Main" },
+		{ "Comment", "//The Engineer Actor\n" },
+		{ "ModuleRelativePath", "PVZ_USFX_LAB02GameMode.h" },
+		{ "ToolTip", "The Engineer Actor" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Engineer = { "Engineer", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APVZ_USFX_LAB02GameMode, Engineer), Z_Construct_UClass_AArchitecturalEngineer_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Engineer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Engineer_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_HotelBuilder,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Engineer,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APVZ_USFX_LAB02GameMode>::IsAbstract,
 	};
@@ -55,11 +88,11 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02GameMode() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::PropPointers),
 		0,
 		0x008802ACu,
 		METADATA_PARAMS(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::Class_MetaDataParams))
@@ -73,7 +106,7 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02GameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APVZ_USFX_LAB02GameMode, 3070928387);
+	IMPLEMENT_CLASS(APVZ_USFX_LAB02GameMode, 1797683772);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<APVZ_USFX_LAB02GameMode>()
 	{
 		return APVZ_USFX_LAB02GameMode::StaticClass();

@@ -16,11 +16,11 @@
 #include "Girasol.h"
 #include "Nuez.h"
 #include "Hongo.h"
-#include "Lanzaguizantestopo.h"
+
 #include "Sol.h"
 
 #include "HotelLodgingBuilder.h"
-//#include "ArchitecturalEngineer.h"
+#include "ArchitecturalEngineer.h"
 #include "Lodging.h"
 
 #include "Jugador.h"
@@ -84,17 +84,17 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 {
 	Super::BeginPlay();
 	//---------------------------Inicializacion del patron builder------------------------------------------------
-	////Spawn Builder and Engineer
-	//HotelBuilder = GetWorld()->SpawnActor<AHotelLodgingBuilder>
-	//	(AHotelLodgingBuilder::StaticClass());
-	//Engineer = GetWorld()->SpawnActor<AArchitecturalEngineer>
-	//	(AArchitecturalEngineer::StaticClass());
-	////Set the Builder for the Engineer and create the buildings
-	//Engineer->SetLodgingBuilder(HotelBuilder);
-	//Engineer->ConstructLodging();
-	////Get the Engineer's Lodging and Logs the created buildings
-	//ALodging* Lodging = Engineer->GetLodging();
-	//Lodging->LodgingCharacteristics();
+	//Spawn Builder and Engineer
+	HotelBuilder = GetWorld()->SpawnActor<AHotelLodgingBuilder>
+		(AHotelLodgingBuilder::StaticClass());
+	Engineer = GetWorld()->SpawnActor<AArchitecturalEngineer>
+		(AArchitecturalEngineer::StaticClass());
+	//Set the Builder for the Engineer and create the buildings
+	Engineer->SetLodgingBuilder(HotelBuilder);
+	Engineer->ConstructLodging();
+	//Get the Engineer's Lodging and Logs the created buildings
+	ALodging* Lodging = Engineer->GetLodging();
+	Lodging->LodgingCharacteristics();
 	//-------------------------------------finalizacion del patron bilder----------------------------------
 
 	FTransform SpawnLocation;
@@ -279,30 +279,8 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 			//ngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewHongo->GetName(), NewHongo->energia));
 		}
 	}
-	//-------------------------------------------->LanzaGuizantestopo<------------------------------------------------
-	initialPositionX = -600.0f;
-	initialPositionY = 640.0f;
-	for (int i = 0; i < 1; i++)
-	{
-		ALanzaguizantestopo* NewLanzaguizantestopo = SpawnPlantLanzaguizantestopo(FVector(initialPositionX + i * 150.0f, initialPositionY, 200.0f));
 
-		if (NewLanzaguizantestopo)
-		{
-			NewLanzaguizantestopo->SetActorEnableCollision(true);     // Habilita las colisiones si es necesario
-			aPlantas.Add(NewLanzaguizantestopo);
-			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewLanzaguisantestopo->GetName(), NewLanzaguisantestopo->energia));
-
-
-		}
-
-
-		for (int j = 0; j < 2; j++) {
-			APlant* NewLanzaguizantes = SpawnPlant(FVector(initialPositionX + i * 150.0f, initialPositionY + j * 350.0f, 200.0f));
-			aPlantas.Add(NewLanzaguizantes);
-			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Energia de %s es: %i"), *NewLanzaguisantes->GetName(), NewLanzaguisantes->energia));
-
-		}
-	}
+	
 	////---------------------------------------------->Sol<---------------------------------------------------------
 	//initialPositionX = -1172.0f;
 	//initialPositionY = 490.0f;
@@ -651,12 +629,7 @@ AHongo* APVZ_USFX_LAB02GameMode::SpawnPlantHongo(FVector _spawnPosition)
 	return GetWorld()->SpawnActor<AHongo>(AHongo::StaticClass(), SpawnLocation);
 }
 
-ALanzaguizantestopo* APVZ_USFX_LAB02GameMode::SpawnPlantLanzaguizantestopo(FVector _spawnPosition)
-{
-	FTransform SpawnLocation;
-	SpawnLocation.SetLocation(_spawnPosition);
-	return GetWorld()->SpawnActor<ALanzaguizantestopo>(ALanzaguizantestopo::StaticClass(), SpawnLocation);
-}
+
 
 ASol* APVZ_USFX_LAB02GameMode::SpawnPlantSol(FVector _spawnPosition)
 {

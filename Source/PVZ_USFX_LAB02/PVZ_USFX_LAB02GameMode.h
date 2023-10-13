@@ -113,7 +113,7 @@ public:
 	class ARepetidora* SpawnPlantRepetidora(FVector _spawnPosition);
 	class ANuez* SpawnPlantNuez(FVector _spawnPosition);
 	class AHongo* SpawnPlantHongo(FVector _spawnPosition);
-	class ALanzaguizantestopo* SpawnPlantLanzaguizantestopo(FVector _spawnPosition);
+	//class ALanzaguizantestopo* SpawnPlantLanzaguizantestopo(FVector _spawnPosition);
 	class ASol* SpawnPlantSol(FVector _spawnPosition);
 	float TiempoTranscurrido = 0.0f;
 	float TiempoTranscurridoSiguientePala = 0.0f;
@@ -139,13 +139,13 @@ public:
 	//void MoveAndShoot();
 	//void Disparar();
 	//void GenerateZombieHorde();
-	//public:
-	//	//The Builder Actor
-	//	UPROPERTY(VisibleAnywhere, Category = "Main")
-	//	class AHotelLodgingBuilder* HotelBuilder;
-	//	//The Engineer Actor
-	//	UPROPERTY(VisibleAnywhere, Category = "Main")
-	//	class AArchitecturalEngineer* Engineer;
+	private:
+		//The Builder Actor
+		UPROPERTY(VisibleAnywhere, Category = "Main")
+		class AHotelLodgingBuilder* HotelBuilder;
+		//The Engineer Actor
+		UPROPERTY(VisibleAnywhere, Category = "Main")
+		class AArchitecturalEngineer* Engineer;
 
 	
 };
