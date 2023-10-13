@@ -96,7 +96,7 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	ALodging* Lodging = Engineer->GetLodging();
 	Lodging->LodgingCharacteristics();
 	//-------------------------------------finalizacion del patron bilder----------------------------------
-	//
+	
 	FTransform SpawnLocation;
 	SpawnLocation.SetLocation(FVector(-1500.0f, 1200.0f, 200.0f));
 	float initialPositionX = -1500.0f;
