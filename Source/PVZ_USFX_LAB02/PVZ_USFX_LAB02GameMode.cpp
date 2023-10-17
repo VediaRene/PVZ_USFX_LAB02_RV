@@ -23,6 +23,10 @@
 #include "ArchitecturalEngineer.h"
 #include "Lodging.h"
 
+#include "GunAdapter.h"
+#include "Gun.h"
+#include "Shooter.h"
+
 #include "Jugador.h"
 #include "Controlador.h"
 #include "AHUDPlantas.h"
@@ -96,7 +100,17 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	ALodging* Lodging = Engineer->GetLodging();
 	Lodging->LodgingCharacteristics();
 	//-------------------------------------finalizacion del patron bilder----------------------------------
-	
+	//----------------------------------inicializacion del patron adapter----------------------------------
+	 //Spawn the Gun Adapter
+	AGunAdapter* GunAdapter = GetWorld()->SpawnActor<AGunAdapter>
+		(AGunAdapter::StaticClass());
+	//Spawn the Shooter and set the Gun Adapter
+	Shooter = GetWorld()->SpawnActor<AShooter>(AShooter::StaticClass());
+	Shooter->SetSlingShot(GunAdapter);
+	//Shoot
+	Shooter->Sling();
+
+	//----------------------------------final del patron adapter------------------------------------------
 	FTransform SpawnLocation;
 	SpawnLocation.SetLocation(FVector(-1500.0f, 1200.0f, 200.0f));
 	float initialPositionX = -1500.0f;

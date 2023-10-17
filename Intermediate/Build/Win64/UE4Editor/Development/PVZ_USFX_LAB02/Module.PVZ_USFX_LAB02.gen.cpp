@@ -2,6 +2,7 @@
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/AbonoMagico.gen.cpp"
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ActorJerarquico.gen.cpp"
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/AHUDPlantas.gen.cpp"
+#include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ArchitecturalEngineer.gen.cpp"
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Controlador.gen.cpp"
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/CrillaPasto.gen.cpp"
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/CustomSceneComponent.gen.cpp"

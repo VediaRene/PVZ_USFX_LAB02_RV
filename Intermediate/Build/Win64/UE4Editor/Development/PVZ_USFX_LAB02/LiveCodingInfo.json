@@ -4,6 +4,8 @@
 		"Module.PVZ_USFX_LAB02.cpp.obj": [
 			"AbonoMagico.cpp.obj",
 			"ActorJerarquico.cpp.obj",
+			"AHUDPlantas.cpp.obj",
+			"ArchitecturalEngineer.cpp.obj",
 			"Controlador.cpp.obj",
 			"CrillaPasto.cpp.obj",
 			"CustomSceneComponent.cpp.obj",
@@ -14,8 +16,10 @@
 			"GrillaAgua.cpp.obj",
 			"Guisantralladora.cpp.obj",
 			"Hongo.cpp.obj",
+			"HotelLodgingBuilder.cpp.obj",
 			"Jugador.cpp.obj",
 			"Lanzaguisantes.cpp.obj",
+			"Lodging.cpp.obj",
 			"LodgingBuilder.cpp.obj",
 			"MegaSol.cpp.obj",
 			"Nuez.cpp.obj",
@@ -36,16 +40,17 @@
 			"ZombieCono.cpp.obj",
 			"ZombieCubo.cpp.obj",
 			"ZombieSenal.cpp.obj",
-			"AHUDPlantas.cpp.obj",
-			"ArchitecturalEngineer.cpp.obj",
-			"HotelLodgingBuilder.cpp.obj",
-			"Lodging.cpp.obj",
-			"PVZ_USFX_LAB02GameMode.cpp.obj"
+			"Gun.cpp.obj",
+			"GunAdapter.cpp.obj",
+			"PVZ_USFX_LAB02GameMode.cpp.obj",
+			"Shooter.cpp.obj",
+			"SlingShot.cpp.obj"
 		],
 		"Module.PVZ_USFX_LAB02.gen.cpp.obj": [
 			"AbonoMagico.gen.cpp.obj",
 			"ActorJerarquico.gen.cpp.obj",
 			"AHUDPlantas.gen.cpp.obj",
+			"ArchitecturalEngineer.gen.cpp.obj",
 			"Controlador.gen.cpp.obj",
 			"CrillaPasto.gen.cpp.obj",
 			"CustomSceneComponent.gen.cpp.obj",
@@ -79,9 +84,12 @@
 			"ZombieCono.gen.cpp.obj",
 			"ZombieCubo.gen.cpp.obj",
 			"ZombieSenal.gen.cpp.obj",
-			"ArchitecturalEngineer.gen.cpp.obj",
+			"Gun.gen.cpp.obj",
+			"GunAdapter.gen.cpp.obj",
 			"PVZ_USFX_LAB02.init.gen.cpp.obj",
-			"PVZ_USFX_LAB02GameMode.gen.cpp.obj"
+			"PVZ_USFX_LAB02GameMode.gen.cpp.obj",
+			"Shooter.gen.cpp.obj",
+			"SlingShot.gen.cpp.obj"
 		]
 	}
 }

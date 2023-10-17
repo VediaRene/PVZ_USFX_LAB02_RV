@@ -139,6 +139,13 @@ public:
 	//void MoveAndShoot();
 	//void Disparar();
 	//void GenerateZombieHorde();
+	//-----------patron adapter------------------
+	public:
+		//The Shooter Actor that holds the Gun Adapter 
+		UPROPERTY()
+		class AShooter* Shooter;
+	//-------------------------------------------
+	//-----------patron builder------------------
 	private:
 		//The Builder Actor
 		UPROPERTY(VisibleAnywhere, Category = "Main")
@@ -146,6 +153,7 @@ public:
 		//The Engineer Actor
 		UPROPERTY(VisibleAnywhere, Category = "Main")
 		class AArchitecturalEngineer* Engineer;
+	//-------------------------------------------
 
 	
 };

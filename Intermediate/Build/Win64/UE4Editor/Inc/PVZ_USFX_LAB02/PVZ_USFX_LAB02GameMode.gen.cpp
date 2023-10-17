@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02GameMode() {}
 	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_APVZ_USFX_LAB02GameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_PVZ_USFX_LAB02();
+	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_AShooter_NoRegister();
 	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_AHotelLodgingBuilder_NoRegister();
 	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_AArchitecturalEngineer_NoRegister();
 // End Cross Module References
@@ -33,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02GameMode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Shooter_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Shooter;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HotelBuilder_MetaData[];
 #endif
@@ -58,6 +63,14 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02GameMode() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Shooter_MetaData[] = {
+		{ "Comment", "//The Shooter Actor that holds the Gun Adapter \n" },
+		{ "ModuleRelativePath", "PVZ_USFX_LAB02GameMode.h" },
+		{ "ToolTip", "The Shooter Actor that holds the Gun Adapter" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Shooter = { "Shooter", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APVZ_USFX_LAB02GameMode, Shooter), Z_Construct_UClass_AShooter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Shooter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Shooter_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_HotelBuilder_MetaData[] = {
 		{ "Category", "Main" },
 		{ "Comment", "//The Builder Actor\n" },
@@ -76,6 +89,7 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02GameMode() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Engineer = { "Engineer", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APVZ_USFX_LAB02GameMode, Engineer), Z_Construct_UClass_AArchitecturalEngineer_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Engineer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Engineer_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Shooter,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_HotelBuilder,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APVZ_USFX_LAB02GameMode_Statics::NewProp_Engineer,
 	};
@@ -106,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodePVZ_USFX_LAB02GameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APVZ_USFX_LAB02GameMode, 1797683772);
+	IMPLEMENT_CLASS(APVZ_USFX_LAB02GameMode, 3484530750);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<APVZ_USFX_LAB02GameMode>()
 	{
 		return APVZ_USFX_LAB02GameMode::StaticClass();
