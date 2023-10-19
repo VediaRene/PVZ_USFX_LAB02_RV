@@ -53,6 +53,14 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Guisantralladora.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PlantaAtaque.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PlantaAtaque.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Guisantralladora.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Gun.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Gun.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Gun.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/GunAdapter.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/GunAdapter.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\SlingShot.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\SlingShot.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\GunAdapter.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Hongo.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Hongo.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Hongo.generated.h
@@ -83,6 +91,13 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ProyectilFuego.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ProyectilFuego.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02GameMode.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
@@ -96,10 +111,6 @@ G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LA
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB0Q2GameStateBase.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB0Q2GameStateBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameStateBase.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameStateBase.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB0Q2GameStateBase.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/RandomMovement.gen.cpp
@@ -108,6 +119,10 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LA
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Repetidora.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Repetidora.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Repetidora.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Shooter.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Shooter.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Shooter.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/SlingShot.gen.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Sol.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Sol.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Sol.generated.h

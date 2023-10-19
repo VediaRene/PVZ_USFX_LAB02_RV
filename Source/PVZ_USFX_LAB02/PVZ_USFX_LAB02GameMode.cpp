@@ -23,6 +23,9 @@
 #include "ArchitecturalEngineer.h"
 #include "Lodging.h"
 
+#include "StarShipFacade.h"
+
+
 #include "GunAdapter.h"
 #include "Gun.h"
 #include "Shooter.h"
@@ -100,6 +103,8 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	ALodging* Lodging = Engineer->GetLodging();
 	Lodging->LodgingCharacteristics();
 	//-------------------------------------finalizacion del patron bilder----------------------------------
+	
+
 	//----------------------------------inicializacion del patron adapter----------------------------------
 	 //Spawn the Gun Adapter
 	AGunAdapter* GunAdapter = GetWorld()->SpawnActor<AGunAdapter>
@@ -109,8 +114,17 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	Shooter->SetSlingShot(GunAdapter);
 	//Shoot
 	Shooter->Sling();
-
 	//----------------------------------final del patron adapter------------------------------------------
+	
+
+	//----------------------------------inicializacion del patron facade----------------------------------
+	//Create the Ship Facade Actor
+	AStarShipFacade* ShipFacade = GetWorld() -> SpawnActor<AStarShipFacade>(AStarShipFacade::StaticClass());
+	//Execute the needed tasks
+	ShipFacade->Reveille();
+	ShipFacade->PlanOfTheDay();
+	ShipFacade->Taps();
+	//-------------------------------------finalizacion del patron facade----------------------------------
 	FTransform SpawnLocation;
 	SpawnLocation.SetLocation(FVector(-1500.0f, 1200.0f, 200.0f));
 	float initialPositionX = -1500.0f;
