@@ -30,6 +30,19 @@
 #include "Gun.h"
 #include "Shooter.h"
 
+#include "ClockTower.h"
+#include "FreakyAllen.h"
+
+
+
+#include "InnerRealmPotionShop.h"
+#include "OuterRealmPotionShop.h"
+
+#include "ConcreteEnemy.h"
+#include "MeleeEnemy.h"
+#include "ProjectileEnemy.h"
+
+
 #include "Jugador.h"
 #include "Controlador.h"
 #include "AHUDPlantas.h"
@@ -90,6 +103,9 @@ APVZ_USFX_LAB02GameMode::APVZ_USFX_LAB02GameMode()
 void APVZ_USFX_LAB02GameMode::BeginPlay()
 {
 	Super::BeginPlay();
+
+	                         //---------------------PATRONES DE CREACIONALES-------------------------
+							 
 	//---------------------------Inicializacion del patron builder------------------------------------------------
 	//Spawn Builder and Engineer
 	HotelBuilder = GetWorld()->SpawnActor<AHotelLodgingBuilder>
@@ -103,8 +119,28 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	ALodging* Lodging = Engineer->GetLodging();
 	Lodging->LodgingCharacteristics();
 	//-------------------------------------finalizacion del patron bilder----------------------------------
-	
 
+		//-------------------------------------inicializacion del patron FactoryMethod----------------------------------
+	//Crea los generadores de zombies
+	//APotionShop* GeneradorZombiesAgua = GetWorld()->SpawnActor<AOuterRealmPotionShop>(AOuterRealmPotionShop::StaticClass());
+	APotionShop* GeneradorZombiesTierra = GetWorld()->SpawnActor<AOuterRealmPotionShop>(AOuterRealmPotionShop::StaticClass());
+
+	//Create an Outer Health Potion and log its name
+	APotion* Zombie;
+
+
+	Zombie = GeneradorZombiesTierra->OrdenarZombies("TierraGlobo");
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El zombie es %s"), *Zombie->GetNombreZombie()));
+
+	//Zombie = GeneradorZombiesTierra->OrdenarZombies("TierraMinero");
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El zombie es %s"), *Zombie->GetNombreZombie()));
+
+	//Zombie = GeneradorZombiesAgua->OrdenarZombies("AguaBuzo");
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El zombie es %s"), *Zombie->GetNombreZombie()));
+	//-------------------------------------finalizacion del patron FactoryMethod----------------------------------
+	
+	                           //---------------------PATRONES DE ESTRUCTURALES-------------------------
+							   
 	//----------------------------------inicializacion del patron adapter----------------------------------
 	 //Spawn the Gun Adapter
 	AGunAdapter* GunAdapter = GetWorld()->SpawnActor<AGunAdapter>
@@ -117,6 +153,33 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	//----------------------------------final del patron adapter------------------------------------------
 	
 
+	//-------------------------------------inicializacion del patron decorator----------------------------
+
+	// Spawn a Concrete Enemy
+	AConcreteEnemy* ConcreteEnemy = GetWorld()->SpawnActor<AConcreteEnemy>(AConcreteEnemy::StaticClass());
+
+	//Spawn a Melee Enemy and set its Enemy to the Concrete one
+	AMeleeEnemy* MeleeEnemy = GetWorld()->SpawnActor<AMeleeEnemy>(AMeleeEnemy::StaticClass());
+	MeleeEnemy->SetEnemy(ConcreteEnemy);
+
+	//Spawn a Projectile Enemy and set its Enemy to the Melee one
+	AProjectileEnemy* ProjectileEnemy = GetWorld()->SpawnActor<AProjectileEnemy>(AProjectileEnemy::StaticClass());
+	ProjectileEnemy->SetEnemy(MeleeEnemy);
+
+
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Los enemigos estan cuerpo a cuerpo"));
+	Enemy = MeleeEnemy;
+	Enemy->Fight();
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Melee Enemies cause %i damage."), Enemy->GetDamage()));
+	Enemy->Die();
+
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Enemies are now armed with guns"));
+	Enemy = ProjectileEnemy;
+	Enemy->Fight();
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Projectile Enemies cause %i damage."), Enemy->GetDamage()));
+	Enemy->Die();
+	//-------------------------------------Finalizacion del patron decorator----------------------------
+
 	//----------------------------------inicializacion del patron facade----------------------------------
 	//Create the Ship Facade Actor
 	AStarShipFacade* ShipFacade = GetWorld() -> SpawnActor<AStarShipFacade>(AStarShipFacade::StaticClass());
@@ -125,6 +188,36 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	ShipFacade->PlanOfTheDay();
 	ShipFacade->Taps();
 	//-------------------------------------finalizacion del patron facade----------------------------------
+	
+
+	
+	                         //---------------------PATRONES DE COMPORATAMIENTO-------------------------
+	//-------------------------------------inicializacion del patron obserber------------------------------
+	//Spawn the Clock Tower
+	AClockTower* ClockTower = GetWorld()->SpawnActor<AClockTower>
+		(AClockTower::StaticClass());
+	//Spawn the first Subscriber and set its Clock Tower
+	AFreakyAllen* FreakyAllen = GetWorld()->SpawnActor<AFreakyAllen>
+		(AFreakyAllen::StaticClass());
+	FreakyAllen->SetClockTower(ClockTower);
+	////Spawn the second Subscriber and set its Clock Tower
+	//AFreakyJeff* FreakyJeff = GetWorld()->SpawnActor<AFreakyJeff>
+	//	(AFreakyJeff::StaticClass());
+	//FreakyJeff->SetClockTower(ClockTower);
+	////Spawn the third Subscriber and set its Clock Tower
+	//AFreakySue* FreakySue = GetWorld()->SpawnActor<AFreakySue>
+	//	(AFreakySue::StaticClass());
+	//FreakySue->SetClockTower(ClockTower);
+	////Change the time of the Clock Tower, so the Subscribers can execute their
+	//own routine
+	//	ClockTower->SetTimeOfDay("Morning");
+	ClockTower->SetTimeOfDay("Midday");
+	ClockTower->SetTimeOfDay("Evening");
+
+	//-------------------------------------Finalizacion de praton obserber-------------------------------
+	
+	
+	
 	FTransform SpawnLocation;
 	SpawnLocation.SetLocation(FVector(-1500.0f, 1200.0f, 200.0f));
 	float initialPositionX = -1500.0f;

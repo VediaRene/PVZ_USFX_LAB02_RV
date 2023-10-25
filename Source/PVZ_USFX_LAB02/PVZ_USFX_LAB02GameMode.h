@@ -4,7 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+
+#include "Enemy.h"
+
 #include "PVZ_USFX_LAB02GameMode.generated.h"
+
 
 class APotenciador;
 
@@ -16,6 +20,8 @@ class APVZ_USFX_LAB02GameMode : public AGameModeBase
 
 public:
 	APVZ_USFX_LAB02GameMode();
+
+
 
 	TArray<class AZombie*> ArrayZombies;
 	TArray<class APlant*> ArrayPlants;
@@ -145,6 +151,7 @@ public:
 		UPROPERTY()
 		class AShooter* Shooter;
 	//-------------------------------------------
+	
 	//-----------patron builder------------------
 	private:
 		//The Builder Actor
@@ -154,6 +161,13 @@ public:
 		UPROPERTY(VisibleAnywhere, Category = "Main")
 		class AArchitecturalEngineer* Engineer;
 	//-------------------------------------------
+
+			//------------patron decorator-----------------
+public:
+	//The main Enemy Actor
+	IEnemy* Enemy;
+	//------------fin patron decorator-----------------
+
 
 	
 };
