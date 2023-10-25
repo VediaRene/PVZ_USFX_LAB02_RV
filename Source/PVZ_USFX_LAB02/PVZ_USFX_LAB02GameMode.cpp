@@ -161,7 +161,7 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	//Spawn a Melee Enemy and set its Enemy to the Concrete one
 	AMeleeEnemy* MeleeEnemy = GetWorld()->SpawnActor<AMeleeEnemy>(AMeleeEnemy::StaticClass());
 	MeleeEnemy->SetEnemy(ConcreteEnemy);
-
+	///
 	//Spawn a Projectile Enemy and set its Enemy to the Melee one
 	AProjectileEnemy* ProjectileEnemy = GetWorld()->SpawnActor<AProjectileEnemy>(AProjectileEnemy::StaticClass());
 	ProjectileEnemy->SetEnemy(MeleeEnemy);
