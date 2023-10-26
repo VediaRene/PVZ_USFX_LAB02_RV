@@ -6,6 +6,7 @@
 #include "GameFramework/GameModeBase.h"
 
 #include "Enemy.h"
+#include "Enemigo.h"
 
 #include "PVZ_USFX_LAB02GameMode.generated.h"
 
@@ -166,6 +167,10 @@ public:
 public:
 	//The main Enemy Actor
 	IEnemy* Enemy;
+
+	public:
+		//The main Enemy Actor
+		IEnemigo* Enemigo;
 	//------------fin patron decorator-----------------
 
 

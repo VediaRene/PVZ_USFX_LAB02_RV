@@ -14,6 +14,8 @@ class APVZ_USFX_LAB02Projectile : public AActor
 {
 	GENERATED_BODY()
 
+
+
 		/** Sphere collision component */
 		UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Projectile, meta = (AllowPrivateAccess = "true"))
 		UStaticMeshComponent* ProjectileMesh;

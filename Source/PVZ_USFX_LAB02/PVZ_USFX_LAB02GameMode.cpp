@@ -41,7 +41,12 @@
 #include "ConcreteEnemy.h"
 #include "MeleeEnemy.h"
 #include "ProjectileEnemy.h"
+#include "EnemigoADistancia.h"
+#include "EnemigoCualquiera.h"
+#include "EnemigoCuerpoACuerpo.h"
 
+#include "ZombieAbanderado.h"
+#include "ZombieAnsioso.h"
 
 #include "Jugador.h"
 #include "Controlador.h"
@@ -121,22 +126,46 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	//-------------------------------------finalizacion del patron bilder----------------------------------
 
 		//-------------------------------------inicializacion del patron FactoryMethod----------------------------------
-	//Crea los generadores de zombies
-	//APotionShop* GeneradorZombiesAgua = GetWorld()->SpawnActor<AOuterRealmPotionShop>(AOuterRealmPotionShop::StaticClass());
-	APotionShop* GeneradorZombiesTierra = GetWorld()->SpawnActor<AOuterRealmPotionShop>(AOuterRealmPotionShop::StaticClass());
+	////Crea los generadores de zombies
+	////APotionShop* GeneradorZombiesAgua = GetWorld()->SpawnActor<AOuterRealmPotionShop>(AOuterRealmPotionShop::StaticClass());
+	//APotionShop* GeneradorZombiesTierra = GetWorld()->SpawnActor<AOuterRealmPotionShop>(AOuterRealmPotionShop::StaticClass());
 
-	//Create an Outer Health Potion and log its name
-	APotion* Zombie;
+	////Create an Outer Health Potion and log its name
+	//APotion* Zombie;
 
 
-	Zombie = GeneradorZombiesTierra->OrdenarZombies("TierraGlobo");
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El zombie es %s"), *Zombie->GetNombreZombie()));
-
-	//Zombie = GeneradorZombiesTierra->OrdenarZombies("TierraMinero");
+	//Zombie = GeneradorZombiesTierra->OrdenarZombies("TierraGlobo");
 	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El zombie es %s"), *Zombie->GetNombreZombie()));
 
-	//Zombie = GeneradorZombiesAgua->OrdenarZombies("AguaBuzo");
-	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El zombie es %s"), *Zombie->GetNombreZombie()));
+	////Zombie = GeneradorZombiesTierra->OrdenarZombies("TierraMinero");
+	////GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El zombie es %s"), *Zombie->GetNombreZombie()));
+
+	////Zombie = GeneradorZombiesAgua->OrdenarZombies("AguaBuzo");
+	////GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El zombie es %s"), *Zombie->GetNombreZombie()));
+	
+	//--------------------------ejemplo de factoy method implementado en el juego----------------------------------
+	
+	// Spawn a Concrete Enemy
+	AEnemigoCualquiera* EnemigoCualquiera = GetWorld()->SpawnActor<AEnemigoCualquiera>(AEnemigoCualquiera::StaticClass());
+	//Spawn a Melee Enemy and set its Enemy to the Concrete one
+	AEnemigoCuerpoACuerpo* EnemigoCuerpoACuerpo = GetWorld()->SpawnActor<AEnemigoCuerpoACuerpo>(AEnemigoCuerpoACuerpo::StaticClass());
+	EnemigoCuerpoACuerpo->DefinirEnemigo(EnemigoCualquiera);
+	//Spawn a Projectile Enemy and set its Enemy to the Melee one
+	AEnemigoADistancia* EnemigoADistancia = GetWorld()->SpawnActor<AEnemigoADistancia>(AEnemigoADistancia::StaticClass());
+	EnemigoADistancia->DefinirEnemigo(EnemigoCuerpoACuerpo);
+
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Enemigos cuerpo a cuerpo en el horizonte"));
+	Enemigo = EnemigoCuerpoACuerpo;
+	Enemigo->Pelear();
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos cuerpo a cuerpo hacen %i de dano."), Enemigo->GetDano()));
+	Enemigo->Morir();
+
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Los enemigos estan armados con pistolas"));
+	Enemigo = EnemigoADistancia;
+	Enemigo->Pelear();
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos a distancia hacen %i de dano."), Enemigo->GetDano()));
+	Enemigo->Morir();
+
 	//-------------------------------------finalizacion del patron FactoryMethod----------------------------------
 	
 	                           //---------------------PATRONES DE ESTRUCTURALES-------------------------
@@ -155,64 +184,96 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 
 	//-------------------------------------inicializacion del patron decorator----------------------------
 
-	// Spawn a Concrete Enemy
-	AConcreteEnemy* ConcreteEnemy = GetWorld()->SpawnActor<AConcreteEnemy>(AConcreteEnemy::StaticClass());
+	//// Spawn a Concrete Enemy
+	//AConcreteEnemy* ConcreteEnemy = GetWorld()->SpawnActor<AConcreteEnemy>(AConcreteEnemy::StaticClass());
 
-	//Spawn a Melee Enemy and set its Enemy to the Concrete one
-	AMeleeEnemy* MeleeEnemy = GetWorld()->SpawnActor<AMeleeEnemy>(AMeleeEnemy::StaticClass());
-	MeleeEnemy->SetEnemy(ConcreteEnemy);
-	///
-	//Spawn a Projectile Enemy and set its Enemy to the Melee one
-	AProjectileEnemy* ProjectileEnemy = GetWorld()->SpawnActor<AProjectileEnemy>(AProjectileEnemy::StaticClass());
-	ProjectileEnemy->SetEnemy(MeleeEnemy);
+	////Spawn a Melee Enemy and set its Enemy to the Concrete one
+	//AMeleeEnemy* MeleeEnemy = GetWorld()->SpawnActor<AMeleeEnemy>(AMeleeEnemy::StaticClass());
+	//MeleeEnemy->SetEnemy(ConcreteEnemy);
+	/////
+	////Spawn a Projectile Enemy and set its Enemy to the Melee one
+	//AProjectileEnemy* ProjectileEnemy = GetWorld()->SpawnActor<AProjectileEnemy>(AProjectileEnemy::StaticClass());
+	//ProjectileEnemy->SetEnemy(MeleeEnemy);
 
 
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Los enemigos estan cuerpo a cuerpo"));
-	Enemy = MeleeEnemy;
-	Enemy->Fight();
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Melee Enemies cause %i damage."), Enemy->GetDamage()));
-	Enemy->Die();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Los enemigos estan cuerpo a cuerpo"));
+	//Enemy = MeleeEnemy;
+	//Enemy->Fight();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Melee Enemies cause %i damage."), Enemy->GetDamage()));
+	//Enemy->Die();
 
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Enemies are now armed with guns"));
-	Enemy = ProjectileEnemy;
-	Enemy->Fight();
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Projectile Enemies cause %i damage."), Enemy->GetDamage()));
-	Enemy->Die();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Enemies are now armed with guns"));
+	//Enemy = ProjectileEnemy;
+	//Enemy->Fight();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Projectile Enemies cause %i damage."), Enemy->GetDamage()));
+	//Enemy->Die();
 	//-------------------------------------Finalizacion del patron decorator----------------------------
 
 	//----------------------------------inicializacion del patron facade----------------------------------
-	//Create the Ship Facade Actor
-	AStarShipFacade* ShipFacade = GetWorld() -> SpawnActor<AStarShipFacade>(AStarShipFacade::StaticClass());
-	//Execute the needed tasks
-	ShipFacade->Reveille();
-	ShipFacade->PlanOfTheDay();
-	ShipFacade->Taps();
+	////Create the Ship Facade Actor
+	//AStarShipFacade* ShipFacade = GetWorld() -> SpawnActor<AStarShipFacade>(AStarShipFacade::StaticClass());
+	////Execute the needed tasks
+	//ShipFacade->Reveille();
+	//ShipFacade->PlanOfTheDay();
+	//ShipFacade->Taps();
 	//-------------------------------------finalizacion del patron facade----------------------------------
 	
 
 	
 	                         //---------------------PATRONES DE COMPORATAMIENTO-------------------------
 	//-------------------------------------inicializacion del patron obserber------------------------------
-	//Spawn the Clock Tower
-	AClockTower* ClockTower = GetWorld()->SpawnActor<AClockTower>
-		(AClockTower::StaticClass());
-	//Spawn the first Subscriber and set its Clock Tower
-	AFreakyAllen* FreakyAllen = GetWorld()->SpawnActor<AFreakyAllen>
-		(AFreakyAllen::StaticClass());
-	FreakyAllen->SetClockTower(ClockTower);
-	////Spawn the second Subscriber and set its Clock Tower
-	//AFreakyJeff* FreakyJeff = GetWorld()->SpawnActor<AFreakyJeff>
-	//	(AFreakyJeff::StaticClass());
-	//FreakyJeff->SetClockTower(ClockTower);
-	////Spawn the third Subscriber and set its Clock Tower
-	//AFreakySue* FreakySue = GetWorld()->SpawnActor<AFreakySue>
-	//	(AFreakySue::StaticClass());
-	//FreakySue->SetClockTower(ClockTower);
-	////Change the time of the Clock Tower, so the Subscribers can execute their
-	//own routine
-	//	ClockTower->SetTimeOfDay("Morning");
-	ClockTower->SetTimeOfDay("Midday");
-	ClockTower->SetTimeOfDay("Evening");
+	////Spawn the Clock Tower
+	//AClockTower* ClockTower = GetWorld()->SpawnActor<AClockTower>
+	//	(AClockTower::StaticClass());
+	////Spawn the first Subscriber and set its Clock Tower
+	//AFreakyAllen* FreakyAllen = GetWorld()->SpawnActor<AFreakyAllen>
+	//	(AFreakyAllen::StaticClass());
+	//FreakyAllen->SetClockTower(ClockTower);
+	//////Spawn the second Subscriber and set its Clock Tower
+	////AFreakyJeff* FreakyJeff = GetWorld()->SpawnActor<AFreakyJeff>
+	////	(AFreakyJeff::StaticClass());
+	////FreakyJeff->SetClockTower(ClockTower);
+	//////Spawn the third Subscriber and set its Clock Tower
+	////AFreakySue* FreakySue = GetWorld()->SpawnActor<AFreakySue>
+	////	(AFreakySue::StaticClass());
+	////FreakySue->SetClockTower(ClockTower);
+	//////Change the time of the Clock Tower, so the Subscribers can execute their
+	////own routine
+	//ClockTower->SetTimeOfDay("Morning");
+	//ClockTower->SetTimeOfDay("Midday");
+	//ClockTower->SetTimeOfDay("Evening");
+
+
+	//-------------------------------implementacion del patron obserber a juego-------------------------
+	
+	//Aparicion del zombie abanderado
+	AZombieAbanderado* ZombieAbanderado = GetWorld()->SpawnActor<AZombieAbanderado>(AZombieAbanderado::StaticClass());
+
+	//Aparicion del primer zombie que es el ansioso y definiendo su zombie como el abanderado
+	AZombieAnsioso* ZombieAnsioso = GetWorld()->SpawnActor<AZombieAnsioso>(AZombieAnsioso::StaticClass());
+
+	ZombieAnsioso->DefinirZombie(ZombieAbanderado);
+
+	//Cambia el estado del zombie abanderado, para que los suscriptores ejecuten su rutina
+
+	ZombieAbanderado->DefinirEstado("Calmado");
+
+	ZombieAbanderado->DefinirEstado("Enojado");
+
+	ZombieAbanderado->DefinirEstado("Frenetico");
+
+	//Si hubiera otro zombie publicador y suscriptor
+
+	//Aparicion del zombie entrenador
+	//AZombieEntrenador* ZombieEntrenador = GetWorld()->SpawnActor<AZombieEntrenador>(AZombieEntrenador::StaticClass());
+
+	//Aparicion del segundo zombie que es el corredor y definiendo su zombie como el entrenador
+	//AZombieCorredor* ZombieCorredor = GetWorld()->SpawnActor<AZombieCorredor>(AZombieCorredor::StaticClass());
+	//ZombieCorredor->DefinirZombie(ZombieEntrenador);
+
+	//ZombieEntrenador->DefinirEstado("Calentando");
+	//ZombieEntrenador->DefinirEstado("Carrerilla");
+	//ZombieEntrenador->DefinirEstado("Cansado");
 
 	//-------------------------------------Finalizacion de praton obserber-------------------------------
 	
