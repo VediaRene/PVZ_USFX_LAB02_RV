@@ -10,7 +10,7 @@ AZombieCono::AZombieCono()
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ZombieMesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cone.Shape_Cone'"));
 	ZombieMeshComponent->SetStaticMesh(ZombieMesh.Object);
 	//Velocidad de movimineto
-	MovementSpeed = 1.0f;
+	MovementSpeed = 0.1f;
 }
 
 

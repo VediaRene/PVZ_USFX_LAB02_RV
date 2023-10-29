@@ -48,6 +48,21 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LA
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Decorator.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Decorator.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Decorator.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/DecoratorPlantas.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/DecoratorPlantas.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Enemigo.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Enemigo.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\DecoratorPlantas.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Enemigo.gen.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/EnemigoADistancia.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/EnemigoADistancia.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EnemigoADistancia.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/EnemigoCualquiera.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/EnemigoCualquiera.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EnemigoCualquiera.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/EnemigoCuerpoACuerpo.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/EnemigoCuerpoACuerpo.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\EnemigoCuerpoACuerpo.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Enemy.gen.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/FloorPlan.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/FloorPlan.h
@@ -140,6 +155,9 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ProyectilFuego.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ProyectilFuego.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Publicador.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Publicador.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Publicador.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Publisher.gen.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.h
@@ -147,8 +165,6 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Enemigo.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Enemigo.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02GameMode.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.h
@@ -197,9 +213,21 @@ G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LA
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/StiloWidgetSlateWidgetStyle.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\StiloWidgetSlateWidgetStyle.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Subscriber.gen.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Suscriptor.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Suscriptor.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Suscriptor.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Trasformacion.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Trasformacion.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Trasformacion.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Zombie.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/Zombie.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Zombie.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ZombieAbanderado.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ZombieAbanderado.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieAbanderado.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ZombieAnsioso.gen.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ZombieAnsioso.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieAnsioso.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ZombieComun.gen.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02/ZombieComun.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieComun.generated.h

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PVZ_USFX_LAB02.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{55F103C9-DBBE-4E92-9050-7151F59EC5BE}</UniqueIdentifier>
+      <UniqueIdentifier>{D10FFA3D-04B5-4227-AD6D-BC04154D534A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PVZ_USFX_LAB02.Target.cs">
       <Filter>Source</Filter>
@@ -16,7 +16,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\PVZ_USFX_LAB02.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{1F729CA5-969E-4F0B-B263-A4E3DF8C3BAF}</UniqueIdentifier>
+      <UniqueIdentifier>{04CB5B98-3FE7-4985-A707-56D25FFB501E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PVZ_USFX_LAB02">
-      <UniqueIdentifier>{46817FA8-1F40-432A-8947-BC8E41BE9D8F}</UniqueIdentifier>
+      <UniqueIdentifier>{32C0B941-026F-41CC-AB50-6084CD17D7B1}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\AbonoMagico.cpp">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
@@ -64,6 +64,12 @@
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\ClockTower.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\CoinInsertedState.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\CoinInsertedState.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\ConcreteEnemy.cpp">
@@ -264,10 +270,28 @@
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\Morph.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\NoCoinState.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\NoCoinState.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\NoDollarsState.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\NoDollarsState.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\Nuez.cpp">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\Nuez.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\OldSchoolSlotMachine.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\OldSchoolSlotMachine.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\OuterRealmPotionShop.cpp">
@@ -423,6 +447,12 @@
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\StarShipSupplyOfficer.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\State.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\State.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\StiloWidgetSlateWidgetStyle.cpp">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
@@ -445,6 +475,12 @@
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\Trasformacion.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\WonDollarsState.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\WonDollarsState.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\Zombie.cpp">

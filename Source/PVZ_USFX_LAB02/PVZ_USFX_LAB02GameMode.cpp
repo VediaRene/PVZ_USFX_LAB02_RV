@@ -26,6 +26,7 @@
 #include "StarShipFacade.h"
 
 
+
 #include "GunAdapter.h"
 #include "Gun.h"
 #include "Shooter.h"
@@ -33,7 +34,7 @@
 #include "ClockTower.h"
 #include "FreakyAllen.h"
 
-
+#include "OldSchoolSlotMachine.h"
 
 #include "InnerRealmPotionShop.h"
 #include "OuterRealmPotionShop.h"
@@ -145,26 +146,26 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	
 	//--------------------------ejemplo de factoy method implementado en el juego----------------------------------
 	
-	// Spawn a Concrete Enemy
-	AEnemigoCualquiera* EnemigoCualquiera = GetWorld()->SpawnActor<AEnemigoCualquiera>(AEnemigoCualquiera::StaticClass());
-	//Spawn a Melee Enemy and set its Enemy to the Concrete one
-	AEnemigoCuerpoACuerpo* EnemigoCuerpoACuerpo = GetWorld()->SpawnActor<AEnemigoCuerpoACuerpo>(AEnemigoCuerpoACuerpo::StaticClass());
-	EnemigoCuerpoACuerpo->DefinirEnemigo(EnemigoCualquiera);
-	//Spawn a Projectile Enemy and set its Enemy to the Melee one
-	AEnemigoADistancia* EnemigoADistancia = GetWorld()->SpawnActor<AEnemigoADistancia>(AEnemigoADistancia::StaticClass());
-	EnemigoADistancia->DefinirEnemigo(EnemigoCuerpoACuerpo);
+	//// Spawn a Concrete Enemy
+	//AEnemigoCualquiera* EnemigoCualquiera = GetWorld()->SpawnActor<AEnemigoCualquiera>(AEnemigoCualquiera::StaticClass());
+	////Spawn a Melee Enemy and set its Enemy to the Concrete one
+	//AEnemigoCuerpoACuerpo* EnemigoCuerpoACuerpo = GetWorld()->SpawnActor<AEnemigoCuerpoACuerpo>(AEnemigoCuerpoACuerpo::StaticClass());
+	//EnemigoCuerpoACuerpo->DefinirEnemigo(EnemigoCualquiera);
+	////Spawn a Projectile Enemy and set its Enemy to the Melee one
+	//AEnemigoADistancia* EnemigoADistancia = GetWorld()->SpawnActor<AEnemigoADistancia>(AEnemigoADistancia::StaticClass());
+	//EnemigoADistancia->DefinirEnemigo(EnemigoCuerpoACuerpo);
 
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Enemigos cuerpo a cuerpo en el horizonte"));
-	Enemigo = EnemigoCuerpoACuerpo;
-	Enemigo->Pelear();
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos cuerpo a cuerpo hacen %i de dano."), Enemigo->GetDano()));
-	Enemigo->Morir();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Enemigos cuerpo a cuerpo en el horizonte"));
+	//Enemigo = EnemigoCuerpoACuerpo;
+	//Enemigo->Pelear();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos cuerpo a cuerpo hacen %i de dano."), Enemigo->GetDano()));
+	//Enemigo->Morir();
 
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Los enemigos estan armados con pistolas"));
-	Enemigo = EnemigoADistancia;
-	Enemigo->Pelear();
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos a distancia hacen %i de dano."), Enemigo->GetDano()));
-	Enemigo->Morir();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Los enemigos estan armados con pistolas"));
+	//Enemigo = EnemigoADistancia;
+	//Enemigo->Pelear();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos a distancia hacen %i de dano."), Enemigo->GetDano()));
+	//Enemigo->Morir();
 
 	//-------------------------------------finalizacion del patron FactoryMethod----------------------------------
 	
@@ -275,7 +276,42 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	//ZombieEntrenador->DefinirEstado("Carrerilla");
 	//ZombieEntrenador->DefinirEstado("Cansado");
 
+
+
+	//-------------------------------------implementacion del patron de state ------------------------------
+
+	////Create the Slot Machine and set its Dollars Amount to 100
+	//AOldSchoolSlotMachine* OldSchoolSlotMachine = GetWorld() -> SpawnActor<AOldSchoolSlotMachine>(AOldSchoolSlotMachine::StaticClass());
+	//OldSchoolSlotMachine->Initialize(100);
+	////Log the current Slot Machine state
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow,FString::Printf(TEXT("%s"),*OldSchoolSlotMachine->GetState() -> ToString()));
+	////Insert coin and Pull the lever
+	//OldSchoolSlotMachine->InsertCoin();
+	//OldSchoolSlotMachine->PullLever();
+	////Log the current Slot Machine state
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow,FString::Printf(TEXT("%s"),*OldSchoolSlotMachine->GetState() -> ToString()));
+	////Insert coin, Pull the lever, then insert coin again
+	//OldSchoolSlotMachine->InsertCoin();
+	//OldSchoolSlotMachine->PullLever();
+	//OldSchoolSlotMachine->InsertCoin();
+	////Log the current Slot Machine state
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow,FString::Printf(TEXT("%s"),*OldSchoolSlotMachine->GetState() -> ToString()));
+	////Pull the lever
+	//OldSchoolSlotMachine->PullLever();
+	////Add 100 Dollars
+	//OldSchoolSlotMachine->RestockDollars(100);
+	////Insert coin and Pull the lever
+	//OldSchoolSlotMachine->InsertCoin();
+	//OldSchoolSlotMachine->PullLever();
+	////Log the current Slot Machine state
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow,FString::Printf(TEXT("%s"),*OldSchoolSlotMachine->GetState() -> ToString()));
+
+
+	//-------------------------------------fin del pratron State--------------------------------------------
+
 	//-------------------------------------Finalizacion de praton obserber-------------------------------
+	
+	                        //-------------------------------FIN DEL PATRON DE COMPORTAMINETO---------------------------------
 	
 	
 	
