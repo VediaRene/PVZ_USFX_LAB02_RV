@@ -707,6 +707,9 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LA
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\CoinInsertedState.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\OldSchoolSlotMachine.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\OldSchoolSlotMachine.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/CompositePlant.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\CompositePlant.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\CompositePlant.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/ConcreteEnemy.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ConcreteEnemy.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Enemy.h
@@ -750,6 +753,11 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\FreakyAllen.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Morph.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Morph.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\FreakyAllen.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Girasol.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Sol.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\RandomMovement.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\RandomMovement.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Sol.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/GridaManager.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\GridaManager.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\GridaManager.generated.h
@@ -801,10 +809,6 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Jugador.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Jugador.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Zombie.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Zombie.generated.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Sol.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\RandomMovement.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\RandomMovement.generated.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Sol.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayTypes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\IMotionController.h
@@ -835,12 +839,21 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LA
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Nuez.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Nuez.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Nuez.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Observable.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Observable.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Observable.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Observer.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/OldSchoolSlotMachine.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\WonDollarsState.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\WonDollarsState.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/OuterRealmPotionShop.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\OuterRealmPotionShop.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\OuterRealmPotionShop.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Plant.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/PlantaAtaque.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\INCLUDE\cmath
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Potenciador.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Potion.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/PotionShop.cpp
@@ -849,8 +862,6 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ProjectileEnemy.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ProjectileEnemy.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/ProyectilFuego.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ProyectilFuego.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Projectile.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ProyectilFuego.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Publicador.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Publicador.h
@@ -860,28 +871,45 @@ G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LA
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Publisher.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/PVZ_USFX_LAB02.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02.h
-G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.cpp
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02GameMode.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02GameMode.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB02Pawn.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB02Pawn.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieComun.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieComun.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieCono.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieCono.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieCubo.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieCubo.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieSenal.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieSenal.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Repetidora.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Repetidora.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\StarShipFacade.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\StarShipCrewMember.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\StarShipCrewMember.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\StarShipFacade.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Shooter.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Shooter.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieAbanderado.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieAbanderado.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieAnsioso.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Trasformacion.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Trasformacion.generated.h
+G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieAnsioso.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/PVZ_USFX_LAB02Pawn.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/PVZ_USFX_LAB02Projectile.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/PVZ_USFX_LAB0Q2GameStateBase.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\PVZ_USFX_LAB0Q2GameStateBase.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\PVZ_USFX_LAB0Q2GameStateBase.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/RandomMovement.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Repetidora.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Repetidora.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Repetidora.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Shooter.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Shooter.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Shooter.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/SlingShot.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Sol.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/StarShipCrewMember.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\StarShipCrewMember.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\StarShipCrewMember.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/StarShipFacade.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\StarShipFacade.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\StarShipFacade.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\StarShipNavigationOfficer.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\StarShipNavigationOfficer.generated.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\StarShipOperationsOfficer.h
@@ -895,19 +923,15 @@ G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/State.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/StiloWidgetSlateWidgetStyle.cpp
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\StiloWidgetSlateWidgetStyle.h
 G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\StiloWidgetSlateWidgetStyle.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Subscriber.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Suscriptor.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Trasformacion.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\Trasformacion.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Trasformacion.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/WonDollarsState.cpp
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Zombie.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/ZombieAbanderado.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieAbanderado.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieAbanderado.generated.h
+G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/ZombieAnsioso.cpp
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/ZombieComun.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieComun.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieComun.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/ZombieCono.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieCono.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieCono.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -1005,8 +1029,4 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/ZombieCubo.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieCubo.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieCubo.generated.h
 G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/ZombieSenal.cpp
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Source\PVZ_USFX_LAB02\ZombieSenal.h
-G:\PVZOFI07\PVZ_USFX_LAB02_RV\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\ZombieSenal.generated.h

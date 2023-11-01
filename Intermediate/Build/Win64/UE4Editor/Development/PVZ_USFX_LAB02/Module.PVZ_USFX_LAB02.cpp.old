@@ -42,7 +42,6 @@
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Nuez.cpp"
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/OldSchoolSlotMachine.cpp"
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/OuterRealmPotionShop.cpp"
-#include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Plant.cpp"
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Potenciador.cpp"
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/Potion.cpp"
 #include "G:/PVZOFI07/PVZ_USFX_LAB02_RV/Source/PVZ_USFX_LAB02/PotionShop.cpp"

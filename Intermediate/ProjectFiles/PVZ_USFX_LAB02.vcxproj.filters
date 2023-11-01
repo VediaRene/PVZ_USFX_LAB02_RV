@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PVZ_USFX_LAB02.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CCC7CAF0-3342-4CA8-9B50-BD9E0A6BC3C7}</UniqueIdentifier>
+      <UniqueIdentifier>{8800D514-3B7F-4667-9FF7-6C1D1E802826}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PVZ_USFX_LAB02.Target.cs">
       <Filter>Source</Filter>
@@ -16,7 +16,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\PVZ_USFX_LAB02.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F3990A8E-116C-4A68-86E5-EDF8E24EF88A}</UniqueIdentifier>
+      <UniqueIdentifier>{6DA28BAC-D2BF-401B-BE20-3A5B50DEBF62}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PVZ_USFX_LAB02">
-      <UniqueIdentifier>{9CF1A657-BFB0-446A-988A-81E7D42C65CE}</UniqueIdentifier>
+      <UniqueIdentifier>{9D166370-7056-477B-A817-8F368A76FE80}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\AbonoMagico.cpp">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
@@ -330,6 +330,12 @@
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\PlantaAtaque.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\PlantBehavior.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\PlantBehavior.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\Potenciador.cpp">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
@@ -481,6 +487,12 @@
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\Subscriber.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\SunflowerBehavior.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\SunflowerBehavior.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\Suscriptor.cpp">
