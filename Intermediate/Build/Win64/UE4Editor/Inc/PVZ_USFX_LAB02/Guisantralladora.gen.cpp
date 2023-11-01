@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeGuisantralladora() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGuisantralladora, 3547389402);
+	IMPLEMENT_CLASS(AGuisantralladora, 1904202797);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<AGuisantralladora>()
 	{
 		return AGuisantralladora::StaticClass();

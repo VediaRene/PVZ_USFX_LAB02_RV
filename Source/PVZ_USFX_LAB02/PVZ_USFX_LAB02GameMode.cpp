@@ -49,6 +49,9 @@
 #include "ZombieAbanderado.h"
 #include "ZombieAnsioso.h"
 
+#include "CompositePlant.h"
+
+
 #include "Jugador.h"
 #include "Controlador.h"
 #include "AHUDPlantas.h"
@@ -146,26 +149,26 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	
 	//--------------------------ejemplo de factoy method implementado en el juego----------------------------------
 	
-	//// Spawn a Concrete Enemy
-	//AEnemigoCualquiera* EnemigoCualquiera = GetWorld()->SpawnActor<AEnemigoCualquiera>(AEnemigoCualquiera::StaticClass());
-	////Spawn a Melee Enemy and set its Enemy to the Concrete one
-	//AEnemigoCuerpoACuerpo* EnemigoCuerpoACuerpo = GetWorld()->SpawnActor<AEnemigoCuerpoACuerpo>(AEnemigoCuerpoACuerpo::StaticClass());
-	//EnemigoCuerpoACuerpo->DefinirEnemigo(EnemigoCualquiera);
-	////Spawn a Projectile Enemy and set its Enemy to the Melee one
-	//AEnemigoADistancia* EnemigoADistancia = GetWorld()->SpawnActor<AEnemigoADistancia>(AEnemigoADistancia::StaticClass());
-	//EnemigoADistancia->DefinirEnemigo(EnemigoCuerpoACuerpo);
+	// Spawn a Concrete Enemy
+	AEnemigoCualquiera* EnemigoCualquiera = GetWorld()->SpawnActor<AEnemigoCualquiera>(AEnemigoCualquiera::StaticClass());
+	//Spawn a Melee Enemy and set its Enemy to the Concrete one
+	AEnemigoCuerpoACuerpo* EnemigoCuerpoACuerpo = GetWorld()->SpawnActor<AEnemigoCuerpoACuerpo>(AEnemigoCuerpoACuerpo::StaticClass());
+	EnemigoCuerpoACuerpo->DefinirEnemigo(EnemigoCualquiera);
+	//Spawn a Projectile Enemy and set its Enemy to the Melee one
+	AEnemigoADistancia* EnemigoADistancia = GetWorld()->SpawnActor<AEnemigoADistancia>(AEnemigoADistancia::StaticClass());
+	EnemigoADistancia->DefinirEnemigo(EnemigoCuerpoACuerpo);
 
-	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Enemigos cuerpo a cuerpo en el horizonte"));
-	//Enemigo = EnemigoCuerpoACuerpo;
-	//Enemigo->Pelear();
-	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos cuerpo a cuerpo hacen %i de dano."), Enemigo->GetDano()));
-	//Enemigo->Morir();
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Enemigos cuerpo a cuerpo en el horizonte"));
+	Enemigo = EnemigoCuerpoACuerpo;
+	Enemigo->Pelear();
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos cuerpo a cuerpo hacen %i de dano."), Enemigo->GetDano()));
+	Enemigo->Morir();
 
-	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Los enemigos estan armados con pistolas"));
-	//Enemigo = EnemigoADistancia;
-	//Enemigo->Pelear();
-	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos a distancia hacen %i de dano."), Enemigo->GetDano()));
-	//Enemigo->Morir();
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Los enemigos estan armados con pistolas"));
+	Enemigo = EnemigoADistancia;
+	Enemigo->Pelear();
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos a distancia hacen %i de dano."), Enemigo->GetDano()));
+	Enemigo->Morir();
 
 	//-------------------------------------finalizacion del patron FactoryMethod----------------------------------
 	
@@ -218,10 +221,31 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	//ShipFacade->PlanOfTheDay();
 	//ShipFacade->Taps();
 	//-------------------------------------finalizacion del patron facade----------------------------------
+
+	//-----------------------------implemntacion del patron composite-------------------------------------
+	
+	// Ejemplo de uso en el controlador de juego
+	/*APlant* sunflower = GetWorld()->SpawnActor<APlant>();
+	APlant* peaShooter = GetWorld()->SpawnActor<APlant>();
+	APlant* cherryBomb = GetWorld()->SpawnActor<APlant>();*/
+	//APlant* sunflower = GetWorld()->SpawnActor<APlant>(APlant::StaticClass(), FVector(0.f, 0.f, 0.f), FRotator(0.f, 0.f, 0.f));
+	//APlant* peaShooter = GetWorld()->SpawnActor<APlant>(APlant::StaticClass(), FVector(100.f, 0.f, 0.f), FRotator(0.f, 0.f, 0.f));
+	//APlant* cherryBomb = GetWorld()->SpawnActor<APlant>(APlant::StaticClass(), FVector(200.f, 0.f, 0.f), FRotator(0.f, 0.f, 0.f));
+
+	//ACompositePlant* compositePlant = GetWorld()->SpawnActor<ACompositePlant>();
+	//compositePlant->AddPlant(sunflower);
+	//compositePlant->AddPlant(peaShooter);
+
+	//compositePlant->Shoot();   // Esto hará que todas las plantas disparen
+	//compositePlant->Display(); // Esto mostrará todas las plantas
+
+
+	//------------------------------fin del patron composite-------------------------------------------
 	
 
 	
 	                         //---------------------PATRONES DE COMPORATAMIENTO-------------------------
+							 
 	//-------------------------------------inicializacion del patron obserber------------------------------
 	////Spawn the Clock Tower
 	//AClockTower* ClockTower = GetWorld()->SpawnActor<AClockTower>

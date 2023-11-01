@@ -22,6 +22,7 @@ class PVZ_USFX_LAB02_API ISubscriber
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 
+
 public:
 	//The pure virtual functions of the Subscriber
 	virtual void Update(class APublisher* Publisher) = 0;

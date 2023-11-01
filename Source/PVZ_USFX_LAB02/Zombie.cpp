@@ -37,6 +37,7 @@ AZombie::AZombie()
 	MovementSpeed = 0.1f;
 	bCanMove = false;
 	Velocidad = 0.2f;
+	energia = 100;
 }
 
 void AZombie::OnOverlapBeginFunction(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)

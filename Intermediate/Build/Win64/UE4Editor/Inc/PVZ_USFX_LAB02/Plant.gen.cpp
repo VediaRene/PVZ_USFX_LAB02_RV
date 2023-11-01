@@ -20,8 +20,74 @@ void EmptyLinkFunctionForGeneratedCodePlant() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
+	DEFINE_FUNCTION(APlant::execDisplay)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Display();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(APlant::execShoot)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Shoot();
+		P_NATIVE_END;
+	}
 	void APlant::StaticRegisterNativesAPlant()
 	{
+		UClass* Class = APlant::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Display", &APlant::execDisplay },
+			{ "Shoot", &APlant::execShoot },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APlant_Display_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlant_Display_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Plant" },
+		{ "ModuleRelativePath", "Plant.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlant_Display_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlant, nullptr, "Display", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlant_Display_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlant_Display_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlant_Display()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlant_Display_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APlant_Shoot_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlant_Shoot_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Plant" },
+		{ "ModuleRelativePath", "Plant.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlant_Shoot_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlant, nullptr, "Shoot", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlant_Shoot_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlant_Shoot_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlant_Shoot()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlant_Shoot_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_APlant_NoRegister()
 	{
@@ -30,6 +96,7 @@ void EmptyLinkFunctionForGeneratedCodePlant() {}
 	struct Z_Construct_UClass_APlant_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -56,6 +123,10 @@ void EmptyLinkFunctionForGeneratedCodePlant() {}
 	UObject* (*const Z_Construct_UClass_APlant_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_PVZ_USFX_LAB02,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_APlant_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APlant_Display, "Display" }, // 674358091
+		{ &Z_Construct_UFunction_APlant_Shoot, "Shoot" }, // 2195736026
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlant_Statics::Class_MetaDataParams[] = {
@@ -112,11 +183,11 @@ void EmptyLinkFunctionForGeneratedCodePlant() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_APlant_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_APlant_Statics::PropPointers),
 		0,
 		0x009000A5u,
@@ -131,7 +202,7 @@ void EmptyLinkFunctionForGeneratedCodePlant() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlant, 1929334370);
+	IMPLEMENT_CLASS(APlant, 1676241061);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<APlant>()
 	{
 		return APlant::StaticClass();

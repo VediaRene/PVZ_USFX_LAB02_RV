@@ -15,6 +15,9 @@ class PVZ_USFX_LAB02_API AGirasol : public APlant
 	GENERATED_BODY()
 	public:
 		AGirasol();
+
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

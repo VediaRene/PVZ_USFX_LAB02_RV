@@ -5,6 +5,8 @@
 #include "ZombieAbanderado.h"
 #include "Publicador.h"
 
+#include <PVZ_USFX_LAB02/PVZ_USFX_LAB02GameMode.h>
+#include <PVZ_USFX_LAB02/ZombieComun.h>
 // Sets default values
 AZombieAnsioso::AZombieAnsioso()
 {

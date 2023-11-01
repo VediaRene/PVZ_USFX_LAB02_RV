@@ -17,6 +17,12 @@ public:
 	// Sets default values for this actor's properties
 	APlant();
 
+	UFUNCTION(BlueprintCallable, Category = "Plant")
+	virtual void Shoot();
+
+	UFUNCTION(BlueprintCallable, Category = "Plant")
+	virtual void Display();
+
 	UPROPERTY(EditAnywhere)
 		class UStaticMeshComponent* PlantMeshComponent;
 protected:

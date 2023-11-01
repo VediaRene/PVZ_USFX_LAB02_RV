@@ -14,6 +14,9 @@ AGirasol::AGirasol()
 	energia = 150;
 }
 
+
+
+
 void AGirasol::BeginPlay()
 {
 	int Tiempo = FMath::RandRange(3, 6);

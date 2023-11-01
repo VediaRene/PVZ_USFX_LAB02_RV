@@ -11,6 +11,7 @@ UINTERFACE(MinimalAPI)
 class USuscriptor : public UInterface
 {
 	GENERATED_BODY()
+
 };
 
 /**

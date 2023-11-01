@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeHongo() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHongo, 1410259579);
+	IMPLEMENT_CLASS(AHongo, 456580796);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<AHongo>()
 	{
 		return AHongo::StaticClass();

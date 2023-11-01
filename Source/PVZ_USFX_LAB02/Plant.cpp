@@ -33,6 +33,16 @@ APlant::APlant()
 	energia = 100;
 }
 
+void APlant::Shoot()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Default Shooting Behavior"));
+}
+
+void APlant::Display()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Default Display Behavior"));
+}
+
 //void APlant::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 //{
 //	// Verifica si el otro actor es un zombie

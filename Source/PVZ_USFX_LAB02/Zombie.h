@@ -40,6 +40,9 @@ public:
 	UPROPERTY(EditAnywhere)
 	float Velocidad;
 
+	UPROPERTY(VisibleAnywhere) // para ver desde el unreal
+		int energia;
+
 	float TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser);
 	void MoveToTarget(FVector TargetLocation);
 

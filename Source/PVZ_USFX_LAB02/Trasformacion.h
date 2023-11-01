@@ -9,6 +9,7 @@
 // This class does not need to be modified.
 UINTERFACE(MinimalAPI)
 class UTrasformacion : public UInterface
+
 {
 	GENERATED_BODY()
 };

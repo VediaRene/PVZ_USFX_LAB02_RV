@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PVZ_USFX_LAB02_Trasformacion_generated_h
 
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_SPARSE_DATA
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_RPC_WRAPPERS
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_STANDARD_CONSTRUCTORS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_SPARSE_DATA
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_RPC_WRAPPERS
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	PVZ_USFX_LAB02_API UTrasformacion(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTrasformacion) \
@@ -29,7 +29,7 @@ private: \
 public:
 
 
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_ENHANCED_CONSTRUCTORS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	PVZ_USFX_LAB02_API UTrasformacion(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -42,7 +42,7 @@ public: \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTrasformacion)
 
 
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_GENERATED_UINTERFACE_BODY() \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUTrasformacion(); \
 	friend struct Z_Construct_UClass_UTrasformacion_Statics; \
@@ -51,22 +51,22 @@ public: \
 	DECLARE_SERIALIZER(UTrasformacion)
 
 
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_GENERATED_BODY_LEGACY \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_GENERATED_BODY_LEGACY \
 		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_GENERATED_UINTERFACE_BODY() \
-	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_STANDARD_CONSTRUCTORS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_GENERATED_UINTERFACE_BODY() \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_STANDARD_CONSTRUCTORS \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_GENERATED_BODY \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_GENERATED_UINTERFACE_BODY() \
-	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_ENHANCED_CONSTRUCTORS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_GENERATED_UINTERFACE_BODY() \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~ITrasformacion() {} \
 public: \
@@ -75,7 +75,7 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_INCLASS_IINTERFACE \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_INCLASS_IINTERFACE \
 protected: \
 	virtual ~ITrasformacion() {} \
 public: \
@@ -85,22 +85,22 @@ public: \
 
 
 #define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_10_PROLOG
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_21_GENERATED_BODY_LEGACY \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_SPARSE_DATA \
-	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_RPC_WRAPPERS \
-	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_INCLASS_IINTERFACE \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_SPARSE_DATA \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_RPC_WRAPPERS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_INCLASS_IINTERFACE \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_21_GENERATED_BODY \
+#define PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_SPARSE_DATA \
-	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_SPARSE_DATA \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	PVZ_USFX_LAB02_RV_Source_PVZ_USFX_LAB02_Trasformacion_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
