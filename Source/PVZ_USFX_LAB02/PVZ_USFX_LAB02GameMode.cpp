@@ -300,7 +300,7 @@ void APVZ_USFX_LAB02GameMode::BeginPlay()
 	//ZombieEntrenador->DefinirEstado("Carrerilla");
 	//ZombieEntrenador->DefinirEstado("Cansado");
 
-
+	//
 
 	//-------------------------------------implementacion del patron de state ------------------------------
 
